@@ -1,0 +1,90 @@
+.footer_left {
+    margin-left: 1rem;
+}
+
+.footer_mid {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.about_us_div {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer_last {
+    margin-left: 1rem;
+}
+
+.footer_header {
+    font-family: Nohemi;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.footer_p {
+    font-family: arial;
+    font-size: 10px;
+}
+
+.footer_input {
+    height: 30px;
+    border-right: none;
+    border-top-left-radius: 0.3rem;
+    border-bottom-left-radius: 0.3rem;
+    color: "#141415";
+    width: 18rem;
+    margin-top: 1rem;
+}
+
+.footer_button {
+    border-radius: 0.3rem;
+    color: white;
+    background-color: black;
+    height: 30px;
+    font-size: 11px;
+}
+
+.footer_icons {
+    height: 15px;
+    width: 15px;
+}
+
+.footer_icons_div {
+    margin-bottom: 2rem;
+}
+
+.footer_last_div {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.8rem;
+}
+
+.reserved_icon {
+    height: 10px;
+    width: 12px;
+    margin-top: 0.6rem;
+}
+
+.reserved_div {
+    margin-left: 10rem;
+}
+
+.reserved_text_div {
+    display: flex;
+    flex-direction: row;
+}
+
+.div_p_services {
+    display: flex;
+    flex-direction: row;
+}
+.rights_res_text,
+ .policy_text,
+ .terms,
+ .personal_info_text {
+     font-family: arial;
+     font-size: 10px;
+ }

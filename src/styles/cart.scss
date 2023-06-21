@@ -1,0 +1,114 @@
+.summary_header {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.your_cart_text {
+    margin-left: 2rem;
+    font-size: 37px;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.images {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    height: 10rem;
+    width: 10rem;
+}
+
+.price {
+    font-weight: 700;
+    color: black;
+    font-size: 18px;
+}
+
+.max_cushioning_text {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Aeonik;
+}
+
+.cloudmonster_text {
+    font-weight: 700;
+    color: black;
+    font-size: 18px;
+}
+
+.cart_hr {
+    background-color: #B5B5B5;
+    height: 1px;
+    width: 30rem;
+    margin-top: 0;
+}
+
+.increase_icon {
+    font-size: 16px;
+    margin-top: 0.2rem;
+}
+
+.decrease_icon {
+    font-size: 16px;
+    margin-top: 0.2rem;
+    margin-right: 0.3rem;
+}
+
+.p_1 {
+    margin-top: 0;
+    margin-right: 0.3rem;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.orderSummary_div {
+    background-color: white;
+    width: 25rem;
+    padding: 3rem;
+    margin-top: 2rem;
+}
+
+.flex_div {
+    display: flex;
+    flex-direction: row;
+}
+
+.input {
+    width: 17rem;
+    height: 1.5rem;
+}
+
+.apply_button {
+    border: 1px solid grey;
+    border-radius: 0.1rem;
+    width: 6rem;
+    height: 1.8rem;
+    background-color: whitesmoke;
+    margin-left: 0.5rem;
+}
+
+.proceed_btn {
+    color: #F3DF77;
+    background-color: #000000;
+    width: 25rem;
+    height: 2.5rem;
+    border-radius: 0.2rem;
+}
+
+.p_3 {
+    padding-left: 2rem;
+}
+
+.summary_prices {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.summary {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.summary_total {
+    font-weight: 600;
+    font-size: 18px;
+}

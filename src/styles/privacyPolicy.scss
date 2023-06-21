@@ -1,0 +1,86 @@
+.cat_div {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
+.privacy_h1 {
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+    font-size: 50px;
+    margin-top: 3rem;
+    font-family: Nohemi;
+}
+
+.privacy_lorem {
+    margin-top: 0;
+    margin-bottom: 3.5rem;
+    font-size: 16px;
+    font-family: Aeonik;
+}
+.main_div {
+    background-color: bisque;
+    // background-image: url("images/women.jpg");
+}
+
+.p_main_div {
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.privacy_p {
+    margin-bottom: 2rem;
+    margin-right: 45rem;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 5rem;
+    font-family: Nohemi;
+}
+
+.paragraph_div {
+    margin-left: 3.7rem;
+}
+
+.definition_text {
+    margin-top: 2rem;
+    font-weight: 700;
+    font-size: 17px;
+    font-family: Nohemi;
+}
+
+.definition_text2 {
+    font-weight: 700;
+    font-size: 17px;
+    font-family: Nohemi;
+}
+
+.definition_text2_p {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5rem;
+}
+
+.first_ps {
+    margin-top: 2rem;
+}
+
+.first_link {
+    margin-top: 2rem;
+    text-decoration: underline;
+    color: #0066FF;
+    font-family: Aeonik;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.second_link {
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    text-decoration: underline;
+    color: #0066FF;
+    font-family: Aeonik;
+    font-size: 16px;
+    font-weight: 700;
+}

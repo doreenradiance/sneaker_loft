@@ -1,0 +1,120 @@
+ .first_div {
+     display: flex;
+     flex-direction: row;
+     width: 90%;
+ }
+
+ .second_div {
+     display: flex;
+     text-align: center;
+     flex-direction: column;
+     margin-top: 2rem;
+ }
+
+ .contact_cat {
+     display: flex;
+     flex-direction: row;
+     margin-top: 1rem;
+ }
+
+ .cats {
+     margin-right: 3.2rem;
+ }
+
+ .cat1 {
+     margin-left: 6rem;
+ }
+
+ .sneaker_text {
+     background-color: #F3DF77;
+     text-align: center;
+     border-radius: 32.8046px;
+     width: 120px;
+     height: 40px;
+     margin-left: 4rem;
+     margin-top: 2rem;
+     font-size: 14px;
+ }
+
+ .sneaker_text2 {
+     background-color: #F3DF77;
+     text-align: center;
+     border-radius: 32.8046px;
+     width: 120px;
+     height: 40px;
+     margin-top: 2rem;
+     font-size: 14px;
+ }
+
+ .contact_icons {
+     display: flex;
+     flex-direction: row;
+     margin-top: 3rem;
+     margin-Left: 3rem;
+     justify-content: space-between;
+     text-align: center;
+     margin-right: 0.6rem;
+     height: 30px;
+     width: 30px;
+     border-radius: 15px;
+ }
+
+ .icons {
+     //  color: white;
+     font-size: small;
+ }
+
+ .name_inputs {
+     width: 150px;
+     height: 26px;
+ }
+
+ .bold_texts {
+     font-size: 15px;
+     font-weight: bolder;
+     margin-bottom: 0;
+ }
+
+ .b_text {
+     margin-top: 2rem;
+ }
+
+ .lighter_texts {
+     font-size: 12px;
+ }
+
+ .imp_texts {
+     font-size: 13px;
+     font-weight: bold;
+     margin-bottom: 2.6rem;
+ }
+
+ .phone_input {
+     width: 320px;
+     height: 26px;
+ }
+
+ .message_input {
+     width: 320px;
+     height: 60px;
+     text-align: left;
+     margin-left: 0.2rem;
+ }
+
+ .form_imp_texts {
+     font-size: 13px;
+     font-weight: bold;
+     margin-bottom: 0.7rem;
+ }
+
+
+ //  .contact_icons {
+ //     
+ //  }
+
+ .twt_icon {
+     height: 30px;
+     width: 30px;
+     border-radius: 15px;
+     margin-bottom: 0;
+ }

@@ -1,0 +1,225 @@
+.orderTypes_div {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+}
+
+.info_div {
+    display: flex;
+    flex-direction: row;
+}
+
+.info_hr {
+    height: 1.8px;
+    background-color: #f2f4f5;
+    margin-top: 7rem;
+}
+
+.orderTypes {
+    margin-left: 2rem;
+    color: #b1acb8;
+    ;
+}
+
+.profile_info_input {
+    width: 12rem;
+    height: 2rem;
+    border-radius: 0.3rem;
+    margin-top: 0.4rem;
+    border: 1.7px #E5E9ED solid;
+}
+
+.profile_change_password_input,
+.profile_info_email_input {
+    width: 26.5rem;
+    height: 2rem;
+    border-radius: 0.3rem;
+    margin-top: 0.4rem;
+    border: 1.7px #E5E9ED solid;
+    font-weight: 400;
+    font-size: 14px;
+    color: #141415;
+
+}
+
+.info_main_div {
+    background-color: #F5F5F5;
+    padding: 3rem;
+}
+
+.profile_text {
+    font-weight: 700;
+    font-size: 18.5px;
+    font-family: Montserrat;
+}
+
+.favorites {
+    margin-top: 2rem;
+}
+
+.logout_btn {
+    color: #FF3820;
+    background-color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+
+.logout_arrow_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.faArrow_icon {
+    color: #FF3820;
+    margin-top: 0.3rem;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.name_div {
+    display: flex;
+    flex-direction: row;
+}
+
+.label_input_div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+}
+
+.info_label {
+    color: #141415;
+    font-size: 14;
+    font-weight: 600;
+}
+
+.saveChanges_btn {
+    font-size: 15px;
+    background-color: #F3DF77;
+    margin-top: 3rem;
+    width: 8rem;
+    height: 2.7rem;
+    margin-left: 2rem;
+    border: 1.5px solid #E5E9ED;
+    border-radius: 0.3rem;
+}
+
+.changepassword_btn {
+    font-size: 14px;
+    background-color: #F3DF77;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    height: 2.7rem;
+    margin-left: 2rem;
+    border-radius: 0.3rem;
+    border: 1.5px solid #E5E9ED;
+}
+
+.characters {
+    display: flex;
+    flex-direction: row;
+    margin-left: 2rem;
+}
+
+.faCheck {
+    font-size: 10px;
+    margin-top: 0.8rem;
+    margin-left: 0.4rem;
+    margin-right: 1rem;
+    color: #34A853;
+}
+
+.faXmark {
+    color: #EB4335;
+    font-size: 10px;
+    margin-top: 0.8rem;
+    margin-right: 1rem;
+}
+
+.character_divs {
+    display: flex;
+    flex-direction: row;
+}
+
+.other_characters {
+    margin-right: 0.3rem;
+    font-size: 10px;
+    color: #666666;
+}
+
+.rightSideBar_div {
+    background-color: whitesmoke;
+}
+
+.my_fav_div {
+    background-color: white;
+    margin-top: 4rem;
+    height: 35rem;
+}
+
+.my_fav_div2 {
+    padding-left: 2rem;
+    margin-bottom: 3rem;
+    margin-top: 0;
+}
+
+.my_fav_txt {
+    font-weight: 600;
+    font-size: 22px;
+    padding-left: 2rem;
+}
+
+.fav_image {
+    width: 15rem;
+    height: 14.5rem;
+    // background-color: #b1acb8;
+}
+
+.fav_texts_div {
+    background-color: #F9F8F5;
+    height: 9rem;
+}
+
+.ltd_edt_txt {
+    color: #995C00;
+    font-size: 11px;
+    padding-left: 0.2rem;
+    padding-top: 0.2rem;
+}
+
+.cloud_txt {
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 0.5rem;
+}
+
+.max_txt {
+    font-weight: 400;
+    font-size: 10px;
+    margin-left: 0.5rem;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 0.5rem;
+}
+
+.Italy_txt {
+    margin: 0;
+    font-size: 9px;
+    border: 1px solid black;
+    width: 4rem;
+    border-radius: 3rem;
+    margin-left: 7rem;
+    text-align: center;
+}
