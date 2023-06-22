@@ -19,7 +19,6 @@ import BlogInfo from './pages/BlogInfo';
 import CheckoutSideForm1 from './pages/CheckoutForm1';
 import HomePage from './pages/HomePage';
 import ShoesCarousel from './pages/ShoesCarousel';
-import ProfileOrderListInfo from './pages/ProfileOrderListInfo'
 import 'primeicons/primeicons.css';
 
 function App() {
