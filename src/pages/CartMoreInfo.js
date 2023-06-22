@@ -4,7 +4,6 @@ import NavBar from "../components/NavBar";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCirclePlus, faCircleMinus, faTrashCan } from '@fortawesome/free-solid-svg-icons';
 import "../styles/cart.scss"
-import CartSummary from "../components/CartSummary";
 
 function CartMoreInfo() {
     return (
@@ -85,8 +84,7 @@ function CartMoreInfo() {
 
                 </div>
                 <div className="col-12 md:col-6 lg:col-6">
-                    <CartSummary />
-                    {/* <div className="orderSummary_div">
+                    <div className="orderSummary_div">
                         <p className="summary_header">Order Summary</p>
                         <div className="grid">
                             <div className="col-12 md:col-6 lg:col-8"> <input className="input" placeholder="Discount Code" /></div>
@@ -113,9 +111,7 @@ function CartMoreInfo() {
                             <div className="col-12 md:col-6 lg:col-2 summary_prices"><p>£61.48</p></div>
                         </div>
                         <button className="proceed_btn">Proceed to checkout</button>
-                    </div> */}
-
-
+                    </div>
                 </div>
             </div>
 

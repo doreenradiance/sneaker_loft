@@ -178,10 +178,19 @@
     padding-left: 2rem;
 }
 
-.fav_image {
+.fav_image1 {
     width: 15rem;
-    height: 14.5rem;
-    // background-color: #b1acb8;
+    height: 15rem;
+}
+
+.fav_image2 {
+    width: 15rem;
+    height: 15.8rem;
+}
+
+.fav_image3 {
+    width: 15rem;
+    height: 15rem;
 }
 
 .fav_texts_div {
@@ -192,8 +201,8 @@
 .ltd_edt_txt {
     color: #995C00;
     font-size: 11px;
-    padding-left: 0.2rem;
-    padding-top: 0.2rem;
+    padding-left: 0.4rem;
+    padding-top: 0.4rem;
 }
 
 .cloud_txt {
@@ -222,4 +231,27 @@
     border-radius: 3rem;
     margin-left: 7rem;
     text-align: center;
+}
+
+.items_text {
+    background-color: #F3DF77;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 32.8046px;
+    width: 80px;
+    height: 20px;
+    margin-left: 1rem;
+    // margin-top: 2rem;
+    margin-bottom: 0;
+    font-size: 11px;
+}
+
+.profile_hr {
+    background-color: #B5B5B5;
+    height: 1px;
+}
+.profile_cloudmonster_text{
+    font-weight: 700;
+    color: black;
+    font-size: 15px;
 }

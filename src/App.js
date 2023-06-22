@@ -11,13 +11,15 @@ import ProfileInformation from './pages/ProfileInformation';
 import ProfileChangePassword from './pages/ProfileChangePassword';
 import Cart from './pages/Cart';
 import CartMoreInfo from './pages/CartMoreInfo'
-import LinkSuccess from './pages/Success';
+import LinkSuccess from './pages/LinkSuccess';
 import LinkSuccessSecond from './pages/LinkSuccess2';
 import ProfileFavList from './pages/ProfileFavList'
 import CheckoutEmpty from './pages/CheckoutEmpty';
 import BlogInfo from './pages/BlogInfo';
-import CheckoutSideForm1 from './pages/CheckoutForm1';
-
+import CheckoutForm1 from './pages/CheckoutForm1';
+import CheckoutForm2 from './pages/CheckoutForm2';
+import ProfileOrderListInfo from './pages/ProfileOrderListInfo';
+import ProfileOrderList from './pages/ProfileOrderList'
 
 function App() {
   return (
@@ -37,9 +39,12 @@ function App() {
       {/* <LinkSuccessSecond /> */}
       {/* <Contact/> */}
       {/* {<ProfileFavList />} */}
+      {/* <ProfileOrderList /> */}
+      <ProfileOrderListInfo />
       {/* <CheckoutEmpty /> */}
       {/* <BlogInfo /> */}
-      <CheckoutSideForm1 />
+      {/* <CheckoutForm1 /> */}
+      {/* <CheckoutForm2 /> */}
     </div>
   );
 }
