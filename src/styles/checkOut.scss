@@ -1,12 +1,58 @@
+.checkout {
+    font-size: 40px;
+}
+
 .checkout_hr {
     background-color: #B5B5B5;
     height: 1px;
-    width: 24rem;
-    margin-top: 0;
 }
 
 .max_cushioning {
-    font-size: 16px;
+    font-size: 10px;
     font-weight: 500;
     font-family: Aeonik;
+}
+
+.contact_info {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.login_text {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 12px;
+    margin-top: 0.7rem;
+}
+
+.checkout_inputs {
+    border: 1px solid #bbbbbb;
+    border-radius: 0.2rem;
+    color: "#bbbbbb"
+}
+
+.checkout_images {
+    width: 12rem;
+    height: 11rem;
+}
+
+.checkout_images1 {
+    width: 12rem;
+    height: 11rem;
+}
+
+.checkout_main_div {
+    background-color: #F5F5F5;
+    padding: 2rem;
+}
+
+.checkout_images_div {
+    background-color: white;
+    width: 29rem;
+    padding: 1rem;
+}
+
+.shipping_details {
+    margin: 0;
+    margin-top: 0.2rem;
 }
