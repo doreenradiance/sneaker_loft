@@ -14,8 +14,15 @@ const ShoesCarousel = () => {
     }
     return (
         <div>
-            < div style={{ marginTop: "3rem", marginBottom: "3rem" }}>
-                <span className="my_shoe-carousel-title">New Arrivals...</span>
+            < div className='grid' style={{ marginTop: "3rem", marginBottom: "3rem" }}>
+                <div className='col-10'>
+                    <span className="my_shoe-carousel-title">New Arrivals...</span>
+                </div>
+                <div className='col-2'>
+                    <button style={{ backgroundColor: "black", width: "103px", height: "103px", flexShrink: "0px", borderRadius: "103px" }}>
+                        <span style={{ color: "white", fontSize: "24px", lineHeight: "30px", fontFamily: "Nohemi" }}>Drag</span>
+                    </button>
+                </div>
             </div>
             <div className="grid" style={{ display: "flex", flexDirection: "row", justifyContent: "space-between" }}>
                 <div className="col-4" >
