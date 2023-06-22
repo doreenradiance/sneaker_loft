@@ -10,7 +10,7 @@ function HomePage() {
         <>
             <div>
                 <div className="background_img" style={{ paddingLeft: "5rem" }}>
-                    <NavBar design="home-page_navBar" />
+                    <NavBar backgroundColor="home-page_navBar" textColor="home-page_navBar_text_color" />
                     <div className="home-title">
                         <div className="home-title-content">
                             <span style={{ fontFamily: "Nohemi", fontWeight: "600px", fontSize: "86px", lineHeight: "100px" }}>
@@ -39,7 +39,7 @@ function HomePage() {
                         <button className="home-category">Slippers</button>
                     </div>
                 </div>
-                <div style={{ backgroundColor: "#F9F8F5", paddingLeft: "4rem"}}>
+                <div style={{ backgroundColor: "#F9F8F5", paddingLeft: "4rem" }}>
                     <ShoesCarousel />
                 </div>
 

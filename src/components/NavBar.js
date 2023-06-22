@@ -1,52 +1,46 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMagnifyingGlass, faBagShopping, faUser, faHeart } from '@fortawesome/free-solid-svg-icons';
 import "../styles/contact.scss";
+import "../styles/homePage.scss"
 
-const NavBar = ({ design }) => {
+
+const NavBar = ({ backgroundColor, textColor }) => {
     return (
         <>
-            <div className={`navBar_first_div ${design}`}>
-                <div className="grid">
-                    <div className="col-12 md:col-6 lg:col-4">
-                        <div className="grid">
-                            <div className="col-7 cat_div" style={{ display: "flex", flexDirection: "row", justifyContent: "space-between" }}>
-                                <span className="navbar-items-text">Men</span>
-                                <span className="navbar-items-text">Women</span>
-                                <span className="navbar-items-text">New Arrivals</span>
-                                <span className="navbar-items-text">Sale</span>
-                                {/* <div className="col-12 md:col-6 lg:col-2.5">Blog</div> */}
-                            </div>
-                        </div>
+            <div className={`navBar_first_div ${backgroundColor}`}>
+                <div className="grid" style={{ paddingTop: "5rem" }}>
+                    <div class={`col-5 ${textColor}`} style={{ display: "flex", flexDirection: "row", fontFamily: "Arial", fontWeight: "bolder", fontSize: "20px", alignItems: "center" }}>
+                        <div style={{ width: "41px", height: "23px", marginRight: "31px" }}>Men</div>
+                        <div style={{ width: "72px", height: "23px", marginRight: "31px" }}>Women</div>
+                        <div style={{ width: "121px", height: "23px", marginRight: "31px" }}>New Arrivals</div>
+                        <div style={{ width: "42px", height: "23px", marginRight: "31px" }}>Sales</div>
+                        <div style={{ width: "45px", height: "23px", marginRight: "31px" }}>Blogs</div>
                     </div>
-
-                    <div className="col-12 md:col-6 lg:col-4">
-                        <div className="sneaker_text">
-                            <p style={{ marginTop: "0.5rem" }} >Sneaker Loft</p>
-                        </div>
+                    <div class="col-4">
+                        <button style={{ border: "none", top: "41px", background: "#F3DF77", width: "168px", height: "56.662px", flexShrink: "0", borderRadius: "32.805px", fontWeight: "bold", fontSize: "17.121px" }}>
+                            <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-around" }}>
+                                <i className="pi pi-reddit" style={{ color: "white", fontSize: "20px" }} />
+                                <div>Sneakerloft</div>
+                            </div>
+                        </button>
                     </div>
-
-                    <div className="col-12 md:col-6 lg:col-4">
-                        <div className="grid">
-                            <div className="col-12 md:col-6 lg:col-3">
-                                <FontAwesomeIcon icon={faMagnifyingGlass} />
-                                {/* style={{ marginLeft: "5rem", marginRight: "5rem" }} */}
+                    <div class={`col-2 ${textColor}`} >
+                        <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignContent: "center", marginTop: "20px" }}>
+                            <div>
+                                <i className="pi pi-search" />
                             </div>
-                            <div className="col-12 md:col-6 lg:col-3">
-                                <FontAwesomeIcon icon={faUser} />
-                                {/* style={{ marginRight: "5rem", }} */}
+                            <div>
+                                <i className="pi pi-user" />
                             </div>
-                            <div className="col-12 md:col-6 lg:col-3">
-                                <FontAwesomeIcon icon={faHeart} />
-                                {/* style={{ marginRight: "5rem", }}  */}
+                            <div>
+                                <i className="pi pi-heart" />
                             </div>
-                            <div className="col-12 md:col-6 lg:col-3">
-                                <FontAwesomeIcon icon={faBagShopping} />
+                            <div>
+                                <i className="pi pi-shopping-bag" />
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div >
         </>
     )
 }
