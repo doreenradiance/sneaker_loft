@@ -1,0 +1,38 @@
+.background_img {
+    background-image: url(../../public/images/home-update.png);
+    // position: absolute;
+    width: 1600px;
+    height: 833px;
+    left: calc(50% - 1600px/2);
+    top: 0px;
+}
+
+.home-page_navBar {
+    background-color: none !important;
+}
+
+.home-title {
+    position: absolute;
+    width: 843px;
+    height: 341px;
+    left: 86px;
+    top: 232px;
+}
+
+.home-title-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 26px;
+    color: white;
+}
+
+.home-category {
+    border-radius: 47.6292px;
+    width: 105.74px;
+    height: 49px;
+    left: calc(50% - 105.74px/2 - 667.26px);
+    top: 869.42px;
+    padding: 15.2413px 20.7187px 15.2413px 20.9568px;
+}

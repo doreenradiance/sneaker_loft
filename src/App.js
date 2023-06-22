@@ -17,7 +17,9 @@ import ProfileFavList from './pages/ProfileFavList'
 import CheckoutEmpty from './pages/CheckoutEmpty';
 import BlogInfo from './pages/BlogInfo';
 import CheckoutSideForm1 from './pages/CheckoutForm1';
-
+import HomePage from './pages/HomePage';
+import ShoesCarousel from './pages/ShoesCarousel';
+import 'primeicons/primeicons.css';
 
 function App() {
   return (
@@ -39,7 +41,8 @@ function App() {
       {/* {<ProfileFavList />} */}
       {/* <CheckoutEmpty /> */}
       {/* <BlogInfo /> */}
-      <CheckoutSideForm1 />
+      {/* <CheckoutSideForm1 /> */}
+      <HomePage />
     </div>
   );
 }

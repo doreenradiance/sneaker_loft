@@ -3,18 +3,18 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass, faBagShopping, faUser, faHeart } from '@fortawesome/free-solid-svg-icons';
 import "../styles/contact.scss";
 
-function NavBar() {
+const NavBar = ({ design }) => {
     return (
         <>
-            <div className="navBar_first_div" style={{backgroundColor:"#F5F5F5"}}>
+            <div className={`navBar_first_div ${design}`}>
                 <div className="grid">
                     <div className="col-12 md:col-6 lg:col-4">
                         <div className="grid">
-                            <div className="cat_div">
-                                <div className="col-12 md:col-6 lg:col-3"><p>Men</p></div>
-                                <div className="col-12 md:col-6 lg:col-3"><p>Women</p></div>
-                                <div className="col-12 md:col-6 lg:col-3"><p>New Arrivals</p></div>
-                                <div className="col-12 md:col-6 lg:col-3"><p>Sale</p></div>
+                            <div className="col-7 cat_div" style={{ display: "flex", flexDirection: "row", justifyContent: "space-between" }}>
+                                <span className="navbar-items-text">Men</span>
+                                <span className="navbar-items-text">Women</span>
+                                <span className="navbar-items-text">New Arrivals</span>
+                                <span className="navbar-items-text">Sale</span>
                                 {/* <div className="col-12 md:col-6 lg:col-2.5">Blog</div> */}
                             </div>
                         </div>
