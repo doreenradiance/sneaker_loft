@@ -28,18 +28,18 @@ function ProfileFavList() {
                     <div className="grid my_fav_div2">
                         <div className="col-12 md:col-6 lg:col-4" >
                             <p className="Italy_txt">Made in Italy</p>
-                            <img className="fav_image" src="images/images (2).jfif" alt="one" />
+                            <img className="fav_image1" src="images/images (2).jfif" alt="one" />
                             {cardSection("LIMITED EDITION", "Cloudmonster Sensa", "Maximum cushioning, road runs, all-day performance", "£189.00")}
                         </div>
                         <div className="col-12 md:col-6 lg:col-4">
                             <img src="images/on-wmns-cloudnova-void-undyed-white-flame-3wd12190865-footwear_20_3E_20sneaker_f5777f65-ba5e-4ca4-ba6e-5a2025393faf_600x.webp"
-                                className="fav_image" alt="two" />
+                                className="fav_image2" alt="two" />
                             {cardSection("LIMITED EDITION", "Cloudmonster Sensa", "Maximum cushioning, road runs, all-day performance", "£189.00")}
                         </div>
                         <div className="col-12 md:col-6 lg:col-4">
                             <p className="Italy_txt">Made in Italy</p>
                             <img src="images/FML_4224.webp"
-                                className="fav_image" alt="three" />
+                                className="fav_image3" alt="three" />
                             {cardSection("LIMITED EDITION", "Cloudmonster Sensa", "Maximum cushioning, road runs, all-day performance", "£189.00")}
                         </div>
                     </div>

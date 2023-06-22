@@ -11,7 +11,7 @@ import ProfileInformation from './pages/ProfileInformation';
 import ProfileChangePassword from './pages/ProfileChangePassword';
 import Cart from './pages/Cart';
 import CartMoreInfo from './pages/CartMoreInfo'
-import LinkSuccess from './pages/Success';
+import LinkSuccess from './pages/LinkSuccess';
 import LinkSuccessSecond from './pages/LinkSuccess2';
 import ProfileFavList from './pages/ProfileFavList'
 import CheckoutEmpty from './pages/CheckoutEmpty';
@@ -44,6 +44,8 @@ function App() {
       {/* <LinkSuccessSecond /> */}
       {/* <Contact/> */}
       {/* {<ProfileFavList />} */}
+      {/* <ProfileOrderList /> */}
+      <ProfileOrderListInfo />
       {/* <CheckoutEmpty /> */}
       {/* <BlogInfo /> */}
       {/* <CheckoutSideForm1 /> */}
