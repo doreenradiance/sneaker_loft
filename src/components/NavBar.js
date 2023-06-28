@@ -7,7 +7,7 @@ const NavBar = ({ backgroundColor, textColor }) => {
     return (
         <>
             <div className={`navBar_first_div ${backgroundColor}`}>
-                <div className="grid" style={{ paddingTop: "5rem" }}>
+                <div className="grid" style={{ paddingTop: "4rem",paddingLeft:"4rem" }}>
                     <div class={`col-5 ${textColor}`} style={{ display: "flex", flexDirection: "row", fontFamily: "Arial", fontWeight: "bolder", fontSize: "20px", alignItems: "center" }}>
                         <div style={{ width: "41px", height: "23px", marginRight: "31px" }}>Men</div>
                         <div style={{ width: "72px", height: "23px", marginRight: "31px" }}>Women</div>

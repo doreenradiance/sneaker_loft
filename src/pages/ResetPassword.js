@@ -8,12 +8,17 @@ import "../styles/signUp.scss"
 function ResetPassword() {
     return (
         <>
-            <div className="grid">
-                {/* <div className="signin_main_div"  > */}
-                <div className="col-12 md:col-6 lg:col-10" style={{ marginLeft: "4rem" }}>
-                    <div className="forgotPassword_sneaker_text">
-                        <p>Sneaker Loft</p>
-                    </div>
+            <div className="grid" style={{ backgroundColor: "#F5F5F5" }}>
+                <div className="col-12 md:col-6 lg:col-6" style={{ padding: "4rem" }} >
+                    <button style={{
+                        // marginLeft: "5rem",
+                        border: "none", top: "41px", background: "#F3DF77", width: "168px", height: "56.662px", flexShrink: "0",
+                        borderRadius: "32.805px", fontWeight: "bold", fontSize: "17.121px",
+                    }}><div style={{ display: "flex", flexDirection: "row", justifyContent: "space-around" }}>
+                            <i className="pi pi-reddit" style={{ color: "white", fontSize: "20px" }} />
+                            <div>Sneakerloft</div>
+                        </div>
+                    </button>
                     <p className="reset_text">Reset Password</p>
                     <p className="resetpassword_text">Create a new password</p>
                     <form>
@@ -35,10 +40,9 @@ function ResetPassword() {
                     </form>
                 </div>
 
-                <div className="col-12 md:col-6 lg:col-2">
-                    <img src="images/images (1).jfif" alt="men" className="reset_password_image" />
+                <div className="col-12 md:col-6 lg:col-6">
+                    <img src="images/sidebar_brevo.webp4.png" alt="men" className="reset_password_image" />
                 </div>
-                {/* </div> */}
             </div>
             <Footer />
         </>

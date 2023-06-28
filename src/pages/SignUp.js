@@ -9,12 +9,19 @@ import "../styles/signUp.scss"
 function SignUp() {
 
     return (
-        <div className=" main-contact-div">
-            <div className="grid">
-                <div className="col-12 md:col-6 lg:col-6 side_content" >
-                    <div className="logo_div">
-                        <SneakerLogo />
-                    </div>
+        < >
+            <div className="grid main-contact-div">
+                <div className="col-12 md:col-6 lg:col-6" >
+                    <button style={{
+                        marginLeft: "5rem",
+                        border: "none", top: "41px", background: "#F3DF77", width: "168px", height: "56.662px", flexShrink: "0",
+                        borderRadius: "32.805px", fontWeight: "bold", fontSize: "17.121px", marginTop: "4rem"
+                    }}>
+                        <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-around" }}>
+                            <i className="pi pi-reddit" style={{ color: "white", fontSize: "20px" }} />
+                            <div>Sneakerloft</div>
+                        </div>
+                    </button>
 
                     <div style={{ marginLeft: "6rem" }}>
                         <p className="contact_text">Create your account</p>
@@ -57,13 +64,13 @@ function SignUp() {
                     </div>
                 </div>
                 <div className="col-12 md:col-6 lg:col-6">
-                    <img src="images/istockphoto-614745848-612x612.jpg" alt="women" className="signup-image" />
+                    <img src="images/sidebar_brevo.webp2.png" alt="women" />
                 </div>
             </div>
 
             <Footer />
 
-        </div>
+        </>
     )
 }
 
