@@ -12,13 +12,17 @@ import ProfileChangePassword from './pages/ProfileChangePassword';
 import Cart from './pages/Cart';
 import CartMoreInfo from './pages/CartMoreInfo'
 import LinkSuccess from './pages/LinkSuccess';
-import LinkSuccessSecond from './pages/LinkSuccess2';
+import LinkSuccessOne from './pages/LinkSuccessOne';
 import ProfileFavList from './pages/ProfileFavList'
 import CheckoutEmpty from './pages/CheckoutEmpty';
 import BlogInfo from './pages/BlogInfo';
 import CheckoutSideForm1 from './pages/CheckoutForm1';
+import CheckoutSideForm2 from './pages/CheckoutForm2';
 import HomePage from './pages/HomePage';
 import ShoesCarousel from './pages/ShoesCarousel';
+import ProfileOrderListInfo from './pages/ProfileOrderListInfo'
+import ProfileOrderList from './pages/ProfileOrderList'
+import CheckoutSuccess from './pages/CheckoutSuccess'
 import 'primeicons/primeicons.css';
 import "primereact/resources/primereact.min.css";
 import MensCollection from './pages/Men\'sCollection';
@@ -31,7 +35,7 @@ function App() {
     <div>
       {/* <Men /> */}
       {/* <Women /> */}
-      {/* < SignUp /> */}
+      {/* <SignUp /> */}
       {/* <SignIn /> */}
       {/* <ForgotPassword /> */}
       {/* <ResetPassword /> */}
@@ -41,11 +45,11 @@ function App() {
       {/* <Cart /> */}
       {/* <CartMoreInfo /> */}
       {/* <LinkSuccess /> */}
-      {/* <LinkSuccessSecond /> */}
+      {/* <LinkSuccessOne /> */}
       {/* <Contact/> */}
       {/* {<ProfileFavList />} */}
       {/* <ProfileOrderList /> */}
-      <ProfileOrderListInfo />
+      {/* <ProfileOrderListInfo /> */}
       {/* <CheckoutEmpty /> */}
       {/* <BlogInfo /> */}
       {/* <CheckoutSideForm1 /> */}

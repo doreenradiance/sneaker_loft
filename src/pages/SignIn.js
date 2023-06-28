@@ -9,10 +9,16 @@ function SignIn() {
     return (
         <>
             <div className="grid signin_main_div" >
-                <div className="col-12 md:col-6 lg:col-6" style={{ marginLeft: "4rem" }}>
-                    <div className="sneaker_text2">
-                        <p>Sneaker Loft</p>
-                    </div>
+                <div className="col-12 md:col-6 lg:col-6">
+                    <button style={{
+                        border: "none", top: "41px", background: "#F3DF77", width: "168px", height: "56.662px", flexShrink: "0",
+                        borderRadius: "32.805px", fontWeight: "bold", fontSize: "17.121px", marginTop: "4rem"
+                    }}>
+                        <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-around" }}>
+                            <i className="pi pi-reddit" style={{ color: "white", fontSize: "20px" }} />
+                            <div>Sneakerloft</div>
+                        </div>
+                    </button>
                     <p className="contact_text">Hi, Welcome back.</p>
                     <div style={{ display: "flex", flexDirection: "row" }}>
                         <p className="footer_p">Send your emails in a few minutes.</p><p className="account_p">Already have an account?</p>
@@ -51,7 +57,7 @@ function SignIn() {
                 </div>
 
                 <div className="col-12 md:col-6 lg:col-6" >
-                    <img src="images/men.jpg" alt="men" className="signup-image" />
+                    <img src="images/sidebar_brevo.webp.png" alt="men" style={{ height: "42rem", width: "34rem" }} />
                 </div>
             </div>
 

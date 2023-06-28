@@ -9,7 +9,7 @@ function HomePage() {
     return (
         <>
             <div>
-                <div className="background_img" style={{ paddingLeft: "5rem" }}>
+                <div className="background_img">
                     <NavBar backgroundColor="home-page_navBar" textColor="home-page_navBar_text_color" />
                     <div className="home-title">
                         <div className="home-title-content" style={{ alignItems: "flex-start" }}>
@@ -25,8 +25,8 @@ function HomePage() {
                         </div>
                     </div>
                 </div>
-                <div style={{}}>
-                    <div style={{ margin: "20px", marginLeft: "4rem", backgroundColor: "#fff", width: "1600px", height: "50px", top: "836px", display: "flex", flex: "row", justifyContent: "space-between" }}>
+                <div>
+                    <div style={{ margin: "20px", padding: "1rem", backgroundColor: "#fff", width: "1550px", height: "50px", top: "836px", display: "flex", flex: "row", }}>
                         <button className="home-category" style={{ background: "#F3DF77" }}>All Shoes</button>
                         <button className="home-category">Suede</button>
                         <button className="home-category">Hiking</button>
@@ -42,7 +42,6 @@ function HomePage() {
                 <div style={{ backgroundColor: "#F9F8F5", paddingLeft: "4rem" }}>
                     <ShoesCarousel />
                 </div>
-
             </div >
             <Footer />
         </>

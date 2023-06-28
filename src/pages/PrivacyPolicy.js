@@ -6,7 +6,7 @@ import NavBar from "../components/NavBar";
 function PrivacyPolicy() {
     return (
         <>
-            <div className="main_div">
+            <div className="main_div ">
                 <NavBar />
 
                 <div className="second_div">

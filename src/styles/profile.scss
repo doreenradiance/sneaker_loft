@@ -178,17 +178,16 @@
     padding-left: 2rem;
 }
 
-.fav_image1 {
+// .fav_image1,
+.fav_image2,
+.fav_image3 {
     width: 15rem;
     height: 15rem;
 }
 
-.fav_image2 {
-    width: 15rem;
-    height: 15.8rem;
-}
-
-.fav_image3 {
+.profile_back-img1 {
+    background-image: url(../../public/images/GREATS-Mens-Reign-RetroBlue-Black-01_Web.jpg.png);
+    position: relative;
     width: 15rem;
     height: 15rem;
 }
@@ -217,10 +216,10 @@
     margin-left: 0.5rem;
 }
 
-.price {
+.price_profile {
     font-weight: 700;
     font-size: 15px;
-    margin-left: 0.5rem;
+    padding-left: 0.5rem;
 }
 
 .Italy_txt {
