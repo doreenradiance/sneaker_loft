@@ -7,15 +7,18 @@ import { faHouse } from '@fortawesome/free-solid-svg-icons';
 function CheckoutEmpty() {
     return (
         <>
-            <NavBar />
+            <div style={{ backgroundColor: "#F5F5F5" }}>
+                <NavBar />
 
-            <div style={{ display: "flex", flexDirection: "column", alignItems: "center", backgroundColor: "#F5F5F5" }}>
-                <p style={{ fontWeight: "bold", fontSize: "42px", margin: "0" }}>Page not found</p>
-                <p style={{ fontSize: "14px" }}>Sorry the page you requested was not found.</p>
-                <button style={{ width: "10rem", height: "2.5rem", backgroundColor: "#F3DF77", border: "none", borderRadius: "0.2rem", marginBottom: "8rem" }}>
-                    Back To Home
-                    <FontAwesomeIcon icon={faHouse} style={{ paddingLeft: "0.5rem" }} />
-                </button>
+                <div className="checkoutEmpty_div">
+                    <img src="./images/Group3.png" alt="" style={{ marginTop: "9rem" }} />
+                    <p className="page_not_found">Page not found</p>
+                    <p className="error_txt">Sorry the page you requested was not found.</p>
+                    <button className="btn">
+                        Back To Home
+                        <FontAwesomeIcon icon={faHouse} style={{ paddingLeft: "0.5rem" }} />
+                    </button>
+                </div>
             </div>
             <Footer />
 

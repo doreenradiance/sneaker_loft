@@ -8,12 +8,17 @@ import "../styles/signUp.scss"
 function ForgotPassword() {
     return (
         <>
-            <div className="grid">
-                {/* <div className="signin_main_div"  > */}
-                <div className="col-12 md:col-6 lg:col-8" style={{ marginLeft: "4rem", backgroundColor: "#F5F5F5" }}>
-                    <div className="forgotPassword_sneaker_text">
-                        <p>Sneaker Loft</p>
-                    </div>
+            <div className="grid" style={{ backgroundColor: "#F5F5F5" }}>
+                <div className="col-12 md:col-6 lg:col-6" style={{ padding: "4rem" }} >
+                    <button style={{
+                        border: "none", top: "41px", background: "#F3DF77", width: "168px", height: "56.662px", flexShrink: "0",
+                        borderRadius: "32.805px", fontWeight: "bold", fontSize: "17.121px",
+                    }}>
+                        <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-around" }}>
+                            <i className="pi pi-reddit" style={{ color: "white", fontSize: "20px" }} />
+                            <div>Sneakerloft</div>
+                        </div>
+                    </button>
                     <p className="contact_text">Forgot password</p>
                     <p className="footer_p">We will send you a reset link to your mail. Remember password?</p>
                     <p className="login_text">Login</p>
@@ -32,10 +37,9 @@ function ForgotPassword() {
                 </div>
 
 
-                <div className="col-12 md:col-6 lg:col-4">
-                    <img src="images/images (5).jfif" alt="women" className="forgot_password_image" />
+                <div className="col-12 md:col-6 lg:col-6">
+                    <img src="images/sidebar_brevo.webp3.png" alt="women" className="forgot_password_image" />
                 </div>
-                {/* </div> */}
             </div>
             <Footer />
 

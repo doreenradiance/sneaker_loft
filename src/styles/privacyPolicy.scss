@@ -18,10 +18,16 @@
     font-size: 16px;
     font-family: Aeonik;
 }
+
 .main_div {
-    background-color: bisque;
-    // background-image: url("images/women.jpg");
+    background-image: url(../../public/images/Rectangle4.png);
+    position: relative;
+    width: 1600px;
+    height: 433px;
+    left: calc(50% - 1600px/2);
+    top: 0px;
 }
+
 
 .p_main_div {
     background-color: #F5F5F5;

@@ -178,17 +178,16 @@
     padding-left: 2rem;
 }
 
-.fav_image1 {
+// .fav_image1,
+.fav_image2,
+.fav_image3 {
     width: 15rem;
     height: 15rem;
 }
 
-.fav_image2 {
-    width: 15rem;
-    height: 15.8rem;
-}
-
-.fav_image3 {
+.profile_back-img1 {
+    background-image: url(../../public/images/GREATS-Mens-Reign-RetroBlue-Black-01_Web.jpg.png);
+    position: relative;
     width: 15rem;
     height: 15rem;
 }
@@ -217,10 +216,10 @@
     margin-left: 0.5rem;
 }
 
-.price {
+.price_profile {
     font-weight: 700;
     font-size: 15px;
-    margin-left: 0.5rem;
+    padding-left: 0.5rem;
 }
 
 .Italy_txt {
@@ -250,4 +249,93 @@
     font-weight: bolder;
     font-size: 96px;
     line-height: 100px;
+}
+
+.profile-info-page_navBar {
+    background-color: #F6F6F6;
+}
+
+.order-number {
+    margin-top: 1rem;
+    font-weight: 700;
+    font-size: 27px;
+    margin: 0;
+    font-family: Nohemi;
+}
+
+.profile-order-list-right-sidebar {
+    background-color: white;
+    padding: 2rem;
+    margin-top: 4rem;
+}
+
+.no_items {
+    border-radius: 2rem;
+    background-color: #F3DF77;
+    text-align: center;
+    width: 4.5rem;
+    height: 1rem;
+    margin-top: 2.3rem;
+    margin-left: 1rem;
+    font-family: Nohemi;
+    font-size: 13px;
+}
+
+.items_text {
+    background-color: #F3DF77;
+    border-radius: 2rem;
+    width: 4rem;
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+    text-align: center;
+    font-family: Nohemi;
+}
+
+.profile_hr {
+    height: 1px;
+    background-color: #B5B5B5;
+}
+
+.order-no-price {
+    margin-top: 2rem;
+    font-weight: bold;
+    margin-left: 6.5rem;
+    font-family: Nohemi;
+
+}
+
+.profile_cloudmonster_text {
+    font-weight: 700;
+    font-size: 16px;
+    font-family: Nohemi;
+}
+
+.order_text {
+    margin-top: 2rem;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.confirm-order-price {
+    font-size: 12px;
+    margin-left: 13.7rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    font-family: Nohemi;
+}
+
+.p_hr {
+    height: 1px;
+    background-color: #BBBBBB;
+    width: 41rem;
+    margin: 0;
+    margin-left: 2.3rem;
+    margin-top: 0.5rem;
+}
+
+.profileCardSection {
+    background-color: white;
+    padding: 1rem;
+    width: 50rem;
+    margin-top: 4rem;
 }
