@@ -2,26 +2,23 @@ import React from "react";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import "../styles/homePage.scss"
-import ShoesCarousel from "./ShoesCarousel";
+import ShoesCarouselProducts from "./ShoesCarousel_Products";
 
-function HomePage() {
+function WomenCollection() {
 
     return (
         <>
             <div>
-                <div className="background_img" style={{ paddingLeft: "5rem" }}>
+                <div className="women_background_img" style={{ paddingLeft: "5rem" }}>
                     <NavBar backgroundColor="home-page_navBar" textColor="home-page_navBar_text_color" />
-                    <div className="home-title">
-                        <div className="home-title-content" style={{ alignItems: "flex-start" }}>
+                    <div className="home-title" style={{ margin: "auto", width: "90%", padding: "10px", top: "150px" }}>
+                        <div className="home-title-content" style={{ textAlign: "center" }}>
                             <span style={{ fontFamily: "Nohemi", fontWeight: "600px", fontSize: "86px", lineHeight: "100px" }}>
-                                Stunning collection of shoes
+                                Women's shoe collection
                             </span>
                             <span style={{ fontFamily: "Aeonik", fontWeight: "500px", fontSize: "24px", lineHeight: "28.8px" }}>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit
                             </span>
-                            <button style={{ backgroundColor: "#F3DF77", borderRadius: "5px", color: "black", width: "233px", height: "60px", border: "none", fontWeight: "bolder" }}>
-                                <span style={{ fontFamily: "Aeonik", fontWeight: "600px", fontSize: "18px", alignContent: "center" }}>Shop Collection  <i style={{ marginLeft: "2rem" }} class="pi pi-shopping-bag" /></span>
-                            </button>
                         </div>
                     </div>
                 </div>
@@ -37,16 +34,17 @@ function HomePage() {
                         <button className="home-category">Basketball</button>
                         <button className="home-category">Golf</button>
                         <button className="home-category">Slippers</button>
+                        <button className="home-category">Micro Sports</button>
+                        <button className="home-category">Boots</button>
                     </div>
                 </div>
                 <div style={{ backgroundColor: "#F9F8F5", paddingLeft: "4rem" }}>
-                    <ShoesCarousel />
+                    <ShoesCarouselProducts title={"Featured..."} />
                 </div>
-
             </div >
             <Footer />
         </>
     )
 }
 
-export default HomePage
+export default WomenCollection

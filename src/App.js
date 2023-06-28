@@ -20,6 +20,10 @@ import CheckoutSideForm1 from './pages/CheckoutForm1';
 import HomePage from './pages/HomePage';
 import ShoesCarousel from './pages/ShoesCarousel';
 import 'primeicons/primeicons.css';
+import "primereact/resources/primereact.min.css";
+import MensCollection from './pages/Men\'sCollection';
+import WomenCollection from './pages/Women\'sCollection';
+import ShoeInfo from './pages/ShoeInfo';
 
 function App() {
   return (
@@ -42,7 +46,10 @@ function App() {
       {/* <CheckoutEmpty /> */}
       {/* <BlogInfo /> */}
       {/* <CheckoutSideForm1 /> */}
-      <HomePage />
+      {/* <HomePage /> */}
+      {/* <MensCollection /> */}
+      {/* <WomenCollection /> */}
+      <ShoeInfo />
     </div>
   );
 }
