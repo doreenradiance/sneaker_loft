@@ -22,8 +22,8 @@ const ShoeInfo = () => {
         <>
             <div style={{ backgroundColor: "#F9F8F5", paddingLeft: "5rem" }}>
                 <NavBar />
-                <div className="grid" style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", marginTop: "80px", marginBottom: "5rem" }}>
-                    <div className="col-6">
+                <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", marginTop: "80px", marginBottom: "5rem" }}>
+                    <div>
                         <div style={{ marginBottom: "2rem" }}>
                             <img style={{ width: "774px", height: "656px" }} src="images\shoe_info_main.png" alt="shoe-info-main" />
                         </div>
@@ -36,7 +36,7 @@ const ShoeInfo = () => {
                             <img style={{ width: "111px", height: "94px", left: "90px", top: "833px" }} src="images\shoe_info_faded.png" alt="shoe-info-main" />
                         </div>
                     </div>
-                    <div className="col-6">
+                    <div>
                         <div>
                             <div style={{ marginBottom: "2rem" }}>
                                 <span style={{ font: "Montserrat", fontWeight: "bolder", fontSize: "32px", lineHeight: "41.74px" }}>

@@ -24,6 +24,7 @@ import "primereact/resources/primereact.min.css";
 import MensCollection from './pages/Men\'sCollection';
 import WomenCollection from './pages/Women\'sCollection';
 import ShoeInfo from './pages/ShoeInfo';
+import BlogPage from './pages/BlogPage';
 
 function App() {
   return (
@@ -49,7 +50,8 @@ function App() {
       {/* <HomePage /> */}
       {/* <MensCollection /> */}
       {/* <WomenCollection /> */}
-      <ShoeInfo />
+      {/* <ShoeInfo /> */}
+      <BlogPage />
     </div>
   );
 }
