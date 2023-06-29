@@ -69,7 +69,7 @@ const BlogPage = () => {
                                     <div style={{ display: "flex", flexDirection: "column" }}>
                                         {/* <p className="Italy_txt">Made in Italy</p> */}
                                         <img src="images\GREATS-Mens-EssexPennyLoafer-BlackMulti-01_Web.jpg.png" alt="one"
-                                            style={{ width: "100%", height: "300px" }} alt="two" />
+                                            style={{ width: "100%", height: "300px" }}/>
                                         <div className="fav_texts_div card-sections" style={{ backgroundColor: "white", width: "100%" }}>
                                             <p style={{ color: "#6B7C93", fontFamily: "Inter", fontWeight: "700", fontSize: "12.41px", lineHeight: "16.13px" }} >BLOG POST</p>
                                             <p style={{ color: "#37383C", fontFamily: "Inter", fontWeight: "700", fontSize: "16px", lineHeight: "23.88px" }} >How to know quality shoe products when delivered</p>
