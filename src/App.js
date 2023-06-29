@@ -33,7 +33,7 @@ import BlogPage from './pages/BlogPage';
 function App() {
   return (
     <div>
-      {/* <Men /> */}
+      <Men />
       {/* <Women /> */}
       {/* <SignUp /> */}
       {/* <SignIn /> */}
@@ -53,8 +53,9 @@ function App() {
       {/* <CheckoutEmpty /> */}
       {/* <BlogInfo /> */}
       {/* <CheckoutSideForm1 /> */}
+
       {/* <HomePage /> */}
-      <MensCollection />
+      {/* <MensCollection /> */}
       {/* <WomenCollection /> */}
       {/* <ShoeInfo /> */}
       {/* <BlogPage /> */}

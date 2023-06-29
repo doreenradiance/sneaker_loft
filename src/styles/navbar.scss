@@ -1,5 +1,5 @@
 .navBar_first_div {
-    position: inherit;
+    // position: inherit;
 }
 
 .nav_cat_div {
@@ -8,38 +8,38 @@
     font-family: Arial;
     font-weight: bolder;
     font-size: 20px;
-    align-items: center;
+    // align-items: center;
 }
 
 .nav_cat_men {
-    width: 41px;
-    height: 23px;
+    // width: 41px;
+    // height: 23px;
     margin-right: 31px;
-    margin-left: 31px;
+    margin-left: 20px;
 }
 
 .nav_cat_women {
-    width: 72px;
-    height: 23px;
-    margin-right: 31px;
+    // width: 72px;
+    // height: 23px;
+    margin-right: 29px;
 }
 
 .nav_cat_new_arrivals {
-    width: 121px;
-    height: 23px;
-    margin-right: 31px;
+    // width: 121px;
+    // height: 23px;
+    margin-right: 29px;
 }
 
 .nav_cat_sales {
-    width: 42px;
-    height: 23px;
-    margin-right: 31px;
+    // width: 42px;
+    // height: 23px;
+    margin-right: 29px;
 }
 
 .nav_cat_blogs {
-    width: 45px;
-    height: 23px;
-    margin-right: 31px;
+    // width: 45px;
+    // height: 23px;
+    margin-right: 29px;
 }
 
 .sneaker_logo_btn {
@@ -47,11 +47,12 @@
     top: 41px;
     background: #F3DF77;
     width: 168px;
-    height: 56.662px;
+    height: 56px;
     flex-shrink: 0;
     border-radius: 32.805px;
     font-weight: bold;
-    font-size: 17.121px;
+    font-size: 17.110px;
+    margin-left: 2rem;
 }
 
 .sneaker_logo_text {

@@ -1,14 +1,13 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+// import Women from "../components/Women";
 
 function Women() {
 
     const renderWomen = (
-        <div className="grid" style={{
-            display: "flex", flexDirection: "row", backgroundColor: "#F5F5F5", height: "28rem", borderRadius: "0.5rem", marginLeft: "1rem", marginTop: "30px"
-        }}>
-            <div style={{ height: "25rem" }} className="col-12 md:col-6 lg:col-5">
+        <div className="grid" style={{ display: "flex", flexDirection: "row", marginBottom: "1rem", backgroundColor: "white", height: "28rem", borderRadius: "0.5rem", marginLeft: "1rem", marginTop: "30px" }}>
+            <div className="col-12 md-col-6 lg:col-6" >
                 <h1 style={{
                     paddingLeft: "1rem", paddingTop: "2rem", paddingBottom: "1rem", fontSize: "30px", fontFamily: 'Nohemi', fontWeight: "600",
                     color: "#000000"
@@ -41,25 +40,23 @@ function Women() {
                     }}>See all women shoes</p>
                 </div>
             </div>
-
-            <div className="col-12 md:col-6 lg:col-7" style={{ marginTop: "0rem" }}>
+            <div className="col-12 md-col-6 lg:col-6 " style={{ marginTop: "2rem" }}>
                 <div className="grid">
-                    <div className="col-12 md:col-6 lg:col-6" style={{ marginTop: "50px", }}>
-                        <img style={{ height: "330px", width: "330px", borderRadius: "0.5rem" }} src="images/istockphoto-614745848-612x612.jpg" alt="women" />
+                    <div className="col-12 md-col-6 lg:col-6 ">
+                        <img style={{ height: "330px", width: "330px", borderRadius: "0.5rem" }} src="images/sidebar_brevo.webp2.png" alt="women" />
                     </div>
-                    <div className="col-12 md:col-6 lg:col-6">
-                        <img style={{ height: "330px", width: "330px", marginTop: "50px", borderRadius: "0.5rem" }} src="images/images (4).jfif" alt="women" />
+                    <div className="col-12 md-col-6 lg:col-6 ">
+                        <img style={{ height: "330px", width: "330px", borderRadius: "0.5rem" }} src="images/sidebar_brevo.webp3.png" alt="women" />
                     </div>
                 </div>
             </div>
-        </div >
+        </div>
     )
 
     return (
         <div >
             {renderWomen}
         </div>
-
     )
 }
 

@@ -15,7 +15,7 @@ const NavBar = ({ backgroundColor, textColor }) => {
                         <div className="nav_cat_sales">Sales</div>
                         <div className="nav_cat_blogs">Blogs</div>
                     </div>
-                    <div class="col-4">
+                    <div className="col-4">
                         <button className="sneaker_logo_btn">
                             <div className="sneaker_logo_text">
                                 <i className="pi pi-reddit" style={{ color: "white", fontSize: "20px" }} />
@@ -23,7 +23,7 @@ const NavBar = ({ backgroundColor, textColor }) => {
                             </div>
                         </button>
                     </div>
-                    <div class={`col-2 ${textColor}`} >
+                    <div className={`col-2 ${textColor}`} >
                         <div className="nav_icons">
                             <div>
                                 <i className="pi pi-search" />
