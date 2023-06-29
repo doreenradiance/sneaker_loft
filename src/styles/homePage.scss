@@ -1,9 +1,8 @@
 .background_img {
     background-image: url(../../public/images/home-update.png);
-    // position: absolute;
-    width: 1600px;
-    height: 833px;
-    left: calc(50% - 1600px/2);
+    position: relative;
+    width: 100vw;
+    height: 632px;
     top: 0px;
 }
 
@@ -22,48 +21,71 @@
     position: relative;
     width: 100%;
     height: 55vh;
+
     // left: calc(50% - 1600px/2);
     // top: 0px;
-}
+    .home_category_div {
+        margin-top: 20px;
+        background-color: #fff;
+        height: auto;
+        width: 100%;
+        top: 836px;
+        display: flex;
+        flex: row;
+    }
 
-.home-page_navBar {
-    background-color: none !important;
-}
+    .home-page_navBar {
+        background-color: none !important;
+    }
 
-.home-page_navBar_text_color {
-    color: white;
-}
+    .home-page_navBar_text_color {
+        color: white;
+    }
 
-.home-title {
-    position: absolute;
-    width: 843px;
-    height: 341px;
-    left: 86px;
-    top: 232px;
-}
+    .home-title {
+        position: absolute;
+        width: 843px;
+        height: 341px;
+        left: 86px;
+        top: 232px;
+    }
 
-.home-title-content {
-    display: flex;
-    flex-direction: column;
-    padding: 0px;
-    gap: 26px;
-    color: white;
-}
+    .home-title-content {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        gap: 26px;
+        color: white;
+    }
 
-.home-category {
-    border-radius: 47.6292px;
-    width: 105.74px;
-    height: 49px;
-    left: calc(50% - 105.74px/2 - 667.26px);
-    top: 869.42px;
-    padding: 15.2413px 20.7187px 15.2413px 20.9568px;
-}
+    .home-category {
+        border-radius: 47.6292px;
+        width: 100px;
+        height: 45px;
+        // left: calc(50% - 105.74px/2 - 667.26px);
+        top: 869.30px;
+        // padding: 15.2410px 20.7183px 15.2410px 20.9563px;
+        font-size: 10px;
+        margin-right: 3.2rem;
+    }
 
-.styling {
-    text-decoration: none !important;
-    color: black;
-}
+    .styling {
+        text-decoration: none !important;
+        color: black;
+    }
 
-.card-sections {
-    padding: 10px 10px 10px 10px;
+    .card-sections {
+        padding: 10px 10px 10px 10px;
+    }
+
+    .category_div {
+        padding-left: 0;
+        padding-top: 1rem;
+        background-color: #fff;
+        width: 1550px;
+        height: 50px;
+        top: 836px;
+        display: flex;
+        flex: row;
+    }
 }

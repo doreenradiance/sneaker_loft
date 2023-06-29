@@ -4,11 +4,11 @@ import "../styles/profile.scss";
 const ShoesCarousel = () => {
     const cardSection = (title, cloud_txt, max_txt, price) => {
         return (
-            <div className="fav_texts_div" style={{ backgroundColor: "white", width: "400px" }}>
+            <div className="fav_texts_div" style={{ backgroundColor: "white", width: "400px",marginTop:"0" }}>
                 <p className="ltd_edt_txt" >{title}</p>
                 <p className="cloud_txt">{cloud_txt}</p>
                 <p className="max_txt">{max_txt}</p>
-                <p className="price">{price}</p>
+                <p id="price">{price}</p>
             </div>
         )
     }
@@ -27,7 +27,7 @@ const ShoesCarousel = () => {
             <div className="grid" style={{ display: "flex", flexDirection: "row", justifyContent: "space-between" }}>
                 <div className="col-4" >
                     {/* <p className="Italy_txt">Made in Italy</p> */}
-                    <div>  <img className="carousel-sizing" src="images\GREATS-Mens-EssexPennyLoafer-BlackMulti-01_Web.jpg.png" alt="one" /></div>
+                      <img className="carousel-sizing" src="images\GREATS-Mens-EssexPennyLoafer-BlackMulti-01_Web.jpg.png" alt="one" />
                     {cardSection("LIMITED EDITION", "Cloudmonster Sensa", "Maximum cushioning, road runs, all-day performance", "£189.00")}
                 </div>
                 <div className="col-4">
@@ -59,7 +59,6 @@ const ShoesCarousel = () => {
                     {cardSection("LIMITED EDITION", "Cloudmonster Sensa", "Maximum cushioning, road runs, all-day performance", "£189.00")}
                 </div>
                 <div className="col-4">
-                    {/* <p className="Italy_txt">Made in Italy</p> */}
                     <img src="images/GREATS-Womens-Charlie-Blanco-01_Web.jpg.png"
                         className="carousel-sizing" alt="three" />
                     {cardSection("LIMITED EDITION", "Cloudmonster Sensa", "Maximum cushioning, road runs, all-day performance", "£189.00")}

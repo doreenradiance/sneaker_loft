@@ -1,92 +1,70 @@
 import React from "react";
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCirclePlus, faCircleMinus, faTrashCan } from '@fortawesome/free-solid-svg-icons';
-import "../styles/cart.scss"
-import CartSummary from "../components/CartSummary";
+import "../styles/cart.scss";
+
+
+const decrease_icon = <i className="pi pi-minus-circle decrease_icon" />
+const increase_icon = <i className="pi pi-plus-circle increase_icon" />
+const trash = <i className="pi pi-trash trash_icon" />
+const hr = <p className="cart_hr"></p>
+const hr_last = <p className="cart_hr_last"></p>
+
+const CartMoreInfoSection = (cloudmonster_text, max_cushioning_text, price, decrease_icon, counts, increase_icon, trash_icon, hr) => {
+    return (
+        <>
+            <div>
+                <p className="cloudmonster_text" >{cloudmonster_text}</p>
+                <p className="max_cushioning_text">{max_cushioning_text}</p>
+                <p className="price">{price}</p>
+                <div className="grid" style={{ marginTop: "1.5rem" }}>
+                    <div className="col-12 md:col-6 lg:col-10 flex_div">
+                        {decrease_icon}
+                        <p className="p_1">{counts}</p>
+                        {increase_icon}
+                    </div>
+                    <div className="col-12 md:col-6 lg:col-2">
+                        {trash_icon}
+                    </div>
+                </div>
+            </div>
+            {hr}
+        </>
+    )
+}
 
 function CartMoreInfo() {
     return (
-        < >
-            <NavBar />
+        <>
+            <NavBar backgroundColor="profile-info-page_navBar" style={{ position: "relative" }} />
 
             <div style={{ backgroundColor: "whiteSmoke" }} className="grid">
                 <div className="col-12 md:col-6 lg:col-6">
                     <p className="your_cart_text">Your Cart</p>
                     <div style={{ marginLeft: "2rem" }}>
                         <div style={{ display: "flex", flexDirection: "row", marginRight: "3rem" }}>
-                            <div> <img src="images/transparent.1.jfif" alt="shoe" className="images" /></div>
-                            <div>
-                                <p className="cloudmonster_text" >Cloud Monster Sensa</p>
-                                <p className="max_cushioning_text">Maximum cushioning, road runs, all-day performance</p>
-                                <p className="price">£189.00</p>
-                                <div className="grid">
-                                    <div className="col-12 md:col-6 lg:col-10">
-                                        <div className="flex_div">
-                                            <FontAwesomeIcon className="decrease_icon" icon={faCircleMinus} />
-                                            <p className="p_1">1</p>
-                                            <FontAwesomeIcon className="increase_icon" icon={faCirclePlus} />
-                                        </div>
-                                    </div>
-                                    <div className="col-12 md:col-6 lg:col-2">
-                                        <FontAwesomeIcon icon={faTrashCan} />
-                                    </div>
-                                </div>
-                            </div>
+                            <div> <img src="images/[removal 2.png" alt="shoe" className="images" /></div>
+                            {CartMoreInfoSection("Cloud Monster Sensa", "Maximum cushioning, road runs, all-day performance", "£189.00",
+                                decrease_icon, "1", increase_icon, trash)}
                         </div>
-                        <p className="cart_hr"></p>
+                        {hr}
+                        <div className="flex_div" >
+                            <div> <img src="images/[removal 3.png" alt="shoe" className="images" /></div>
+                            {CartMoreInfoSection("Cloud Monster Sensa", "Maximum cushioning, road runs, all-day performance", "£189.00",
+                                decrease_icon, "2", increase_icon, trash,)}
+                        </div>
+                        {hr}
 
                         <div className="flex_div" >
-                            <div> <img src="images/transparent.2.jfif" alt="shoe" className="images" /></div>
-                            <div>
-                                <p className="cloudmonster_text" >Cloud Monster Sensa</p>
-                                <p className="max_cushioning_text">Maximum cushioning, road runs, all-day performance</p>
-                                <p className="price">£189.00</p>
-                                <div className="grid">
-                                    <div className="col-12 md:col-6 lg:col-10">
-                                        <div className="flex_div" >
-                                            <FontAwesomeIcon className="decrease_icon" icon={faCircleMinus} />
-                                            <p className="p_1">1</p>
-                                            <FontAwesomeIcon className="increase_icon" icon={faCirclePlus} />
-                                        </div>
-                                    </div>
-                                    <div className="col-12 md:col-6 lg:col-2" >
-                                        <FontAwesomeIcon icon={faTrashCan} />
-                                    </div>
-                                </div>
-                            </div>
+                            <div><img src="images/[removal 4.png" alt="shoe" className="images" /></div>
+                            {CartMoreInfoSection("Cloud Monster Sensa", "Maximum cushioning, road runs, all-day performance", "£189.00",
+                                decrease_icon, "1", increase_icon, trash)}
                         </div>
-                        <p className="cart_hr"></p>
-
-                        <div className="flex_div" >
-                            <div><img src="images/transparent.3.jfif" alt="shoe" className="images" /></div>
-                            <div>
-                                <p className="cloudmonster_text" >Cloud Monster Sensa</p>
-                                <p className="max_cushioning_text">Maximum cushioning, road runs, all-day performance</p>
-                                <p className="price">£189.00</p>
-                                <div className="grid">
-                                    <div className="col-12 md:col-6 lg:col-10">
-                                        <div className="flex_div">
-                                            <FontAwesomeIcon className="decrease_icon" icon={faCircleMinus} />
-                                            <p className="p_1">1</p>
-                                            <FontAwesomeIcon className="increase_icon" icon={faCirclePlus} />
-                                        </div>
-                                    </div>
-                                    <div className="col-12 md:col-6 lg:col-2">
-                                        <FontAwesomeIcon icon={faTrashCan} />
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                        <p className="cart_hr"></p>
+                        {hr_last}
                     </div>
-
                 </div>
                 <div className="col-12 md:col-6 lg:col-6">
-                    <CartSummary />
-                    {/* <div className="orderSummary_div">
+                    <div className="orderSummary_div">
                         <p className="summary_header">Order Summary</p>
                         <div className="grid">
                             <div className="col-12 md:col-6 lg:col-8"> <input className="input" placeholder="Discount Code" /></div>
@@ -113,14 +91,12 @@ function CartMoreInfo() {
                             <div className="col-12 md:col-6 lg:col-2 summary_prices"><p>£61.48</p></div>
                         </div>
                         <button className="proceed_btn">Proceed to checkout</button>
-                    </div> */}
-
-
+                    </div>
                 </div>
             </div>
 
             <Footer />
-        </ >
+        </>
     )
 }
 export default CartMoreInfo;

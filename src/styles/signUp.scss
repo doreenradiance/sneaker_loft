@@ -1,21 +1,20 @@
 .main-contact-div {
     margin-top: 0;
+    padding: 0;
+    background-color: #F5F5F5;
 }
 
 .logo_div {
     margin-left: 2rem;
 }
 
-.side_content {
-    background-color: #F5F5F5;
-}
 
 .contact_text {
     font-family: Nohemi;
     font-size: 19px;
     font-weight: bold;
     margin-bottom: 0;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 .account_p {
@@ -90,11 +89,13 @@
 }
 
 .forgot_password_image {
-    height: 550px;
+    height: 42rem;
+    width: 34rem;
 }
 
 .reset_password_image {
-    height: 550px;
+    height: 42rem;
+    width: 34rem;
 }
 
 .required {
@@ -105,6 +106,7 @@
     display: flex;
     flex-direction: row;
     background-color: #F5F5F5;
+    padding-left: 6rem;
 }
 
 .forgot_password_text {
@@ -123,7 +125,7 @@
     text-align: center;
     border-radius: 32.8046px;
     width: 120px;
-    height: 40px;
+    height: 30px;
     margin-top: 2rem;
     font-size: 14px;
 }

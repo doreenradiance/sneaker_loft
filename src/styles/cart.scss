@@ -1,62 +1,87 @@
 .summary_header {
     font-size: 18px;
     font-weight: 700;
+    font-family: Nohemi;
 }
 
 .your_cart_text {
-    margin-left: 2rem;
+    padding-left: 2rem;
     font-size: 37px;
     font-weight: 700;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
+    font-family: Nohemi;
 }
 
 .images {
     margin-top: 1rem;
     margin-right: 1rem;
-    height: 10rem;
-    width: 10rem;
+    height: 4rem;
+    width: 8rem;
 }
 
 .price {
     font-weight: 700;
     color: black;
     font-size: 18px;
+    margin: 0;
+    padding: 0;
+    font-family: Nohemi;
 }
 
 .max_cushioning_text {
     font-size: 14px;
     font-weight: 400;
     font-family: Aeonik;
+    margin: 0;
+    padding: 0;
 }
 
 .cloudmonster_text {
     font-weight: 700;
     color: black;
     font-size: 18px;
+    margin: 0;
+    padding: 0;
+    font-family: Nohemi;
+    margin-top: 1rem;
 }
 
 .cart_hr {
     background-color: #B5B5B5;
     height: 1px;
-    width: 30rem;
+    width: 26.7rem;
     margin-top: 0;
 }
 
+.cart_hr_last {
+    background-color: #B5B5B5;
+    height: 1px;
+    width: 26.7rem;
+    margin-top: 0;
+    margin-bottom: 4rem;
+}
+
 .increase_icon {
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 0.2rem;
 }
 
 .decrease_icon {
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 0.2rem;
     margin-right: 0.3rem;
+    color: grey
+}
+
+.trash_icon {
+    color: grey;
+    font-size: 18px;
 }
 
 .p_1 {
     margin-top: 0;
     margin-right: 0.3rem;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 700;
 }
 
@@ -64,7 +89,7 @@
     background-color: white;
     width: 25rem;
     padding: 3rem;
-    margin-top: 2rem;
+    margin-top: 5rem;
 }
 
 .flex_div {
@@ -101,6 +126,7 @@
 .summary_prices {
     font-weight: 500;
     font-size: 16px;
+    font-family: Aeonik;
 }
 
 .summary {
@@ -110,5 +136,6 @@
 
 .summary_total {
     font-weight: 600;
+    font-family: Aeonik;
     font-size: 18px;
 }

@@ -1,0 +1,60 @@
+.men_category_div {
+    margin-top: 20px;
+    background-color: #fff;
+    height: auto;
+    width: 100%;
+    top: 836px;
+    display: flex;
+    flex: row;
+}
+
+.men_background_img {
+    background-image: url(../../public/images/men_page.png);
+    width: 100vw;
+    height: 432px;
+    top: 0px;
+    position: relative;
+}
+
+.men-category {
+    border-radius: 47.6292px;
+    width: 20vh;
+    height: 45px;
+    top: 869.30px;
+    font-size: 10px;
+    margin-right: 1rem;
+}
+
+.collection-txt {
+    font-family: Nohemi;
+    font-weight: 600px;
+    font-size: 86px;
+    line-height: 100px;
+}
+
+.lorem-txt {
+    font-family: Aeonik;
+    font-weight: 500px;
+    font-size: 24px;
+    line-height: 28.8px;
+}
+
+.collection-main-div {
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+    top: 150px;
+}
+
+.men-carousel-sizing {
+    width: 360px;
+    height: 360px;
+}
+
+.women_background_img {
+    background-image: url(../../public/images/Rectangle-4.png);
+    width: 100vw;
+    height: 432px;
+    top: 0px;
+    position: relative;
+}

@@ -1,0 +1,70 @@
+.navBar_first_div {
+    // position: inherit;
+}
+
+.nav_cat_div {
+    display: flex;
+    flex-direction: row;
+    font-family: Arial;
+    font-weight: bolder;
+    font-size: 20px;
+    // align-items: center;
+}
+
+.nav_cat_men {
+    // width: 41px;
+    // height: 23px;
+    margin-right: 31px;
+    margin-left: 20px;
+}
+
+.nav_cat_women {
+    // width: 72px;
+    // height: 23px;
+    margin-right: 29px;
+}
+
+.nav_cat_new_arrivals {
+    // width: 121px;
+    // height: 23px;
+    margin-right: 29px;
+}
+
+.nav_cat_sales {
+    // width: 42px;
+    // height: 23px;
+    margin-right: 29px;
+}
+
+.nav_cat_blogs {
+    // width: 45px;
+    // height: 23px;
+    margin-right: 29px;
+}
+
+.sneaker_logo_btn {
+    border: none;
+    top: 41px;
+    background: #F3DF77;
+    width: 168px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 32.805px;
+    font-weight: bold;
+    font-size: 17.110px;
+    margin-left: 2rem;
+}
+
+.sneaker_logo_text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav_icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 20px
+}

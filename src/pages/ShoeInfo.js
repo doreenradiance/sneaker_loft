@@ -2,7 +2,7 @@ import { React, useState } from "react";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import "../styles/homePage.scss"
-import ShoesCarousel from "./ShoesCarousel";
+import ShoesCarousel from "../components/ShoesCarousel";
 import { InputText } from "primereact/inputtext";
 import { Dropdown } from 'primereact/dropdown';
 import { Button } from "reactstrap";
