@@ -10,7 +10,7 @@ function WomenCollection() {
     return (
         <>
             <div>
-            <div className="women_background_img">
+                <div className="women_background_img">
                     <NavBar backgroundColor="home-page_navBar" textColor="home-page_navBar_text_color" />
                     <div className="home-title collection-main-div">
                         <div className="home-title-content" style={{ textAlign: "center" }}>
