@@ -19,7 +19,7 @@ import BlogInfo from './pages/BlogInfo';
 import CheckoutSideForm1 from './pages/CheckoutForm1';
 import CheckoutSideForm2 from './pages/CheckoutForm2';
 import HomePage from './pages/HomePage';
-import ShoesCarousel from './pages/ShoesCarousel';
+import ShoesCarousel from './components/ShoesCarousel';
 import ProfileOrderListInfo from './pages/ProfileOrderListInfo'
 import ProfileOrderList from './pages/ProfileOrderList'
 import CheckoutSuccess from './pages/CheckoutSuccess'
@@ -54,10 +54,10 @@ function App() {
       {/* <BlogInfo /> */}
       {/* <CheckoutSideForm1 /> */}
       {/* <HomePage /> */}
-      {/* <MensCollection /> */}
+      <MensCollection />
       {/* <WomenCollection /> */}
       {/* <ShoeInfo /> */}
-      <BlogPage />
+      {/* <BlogPage /> */}
     </div>
   );
 }

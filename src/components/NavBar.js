@@ -1,30 +1,30 @@
 import React from "react";
 import "../styles/contact.scss";
 import "../styles/homePage.scss"
-
+import "../styles/navbar.scss"
 
 const NavBar = ({ backgroundColor, textColor }) => {
     return (
         <>
             <div className={`navBar_first_div ${backgroundColor}`}>
                 <div className="grid" style={{ paddingTop: "2rem" }}>
-                    <div class={`col-5 ${textColor}`} style={{ display: "flex", flexDirection: "row", fontFamily: "Arial", fontWeight: "bolder", fontSize: "20px", alignItems: "center" }}>
-                        <div style={{ width: "41px", height: "23px", marginRight: "31px" }}>Men</div>
-                        <div style={{ width: "72px", height: "23px", marginRight: "31px" }}>Women</div>
-                        <div style={{ width: "121px", height: "23px", marginRight: "31px" }}>New Arrivals</div>
-                        <div style={{ width: "42px", height: "23px", marginRight: "31px" }}>Sales</div>
-                        <div style={{ width: "45px", height: "23px", marginRight: "31px" }}>Blogs</div>
+                    <div className={`col-5 ${textColor} nav_cat_div`}>
+                        <div className="nav_cat_men">Men</div>
+                        <div className="nav_cat_women">Women</div>
+                        <div className="nav_cat_new_arrivals">New Arrivals</div>
+                        <div className="nav_cat_sales">Sales</div>
+                        <div className="nav_cat_blogs">Blogs</div>
                     </div>
                     <div class="col-4">
-                        <button style={{ border: "none", top: "41px", background: "#F3DF77", width: "168px", height: "56.662px", flexShrink: "0", borderRadius: "32.805px", fontWeight: "bold", fontSize: "17.121px" }}>
-                            <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-around" }}>
+                        <button className="sneaker_logo_btn">
+                            <div className="sneaker_logo_text">
                                 <i className="pi pi-reddit" style={{ color: "white", fontSize: "20px" }} />
                                 <div>Sneakerloft</div>
                             </div>
                         </button>
                     </div>
                     <div class={`col-2 ${textColor}`} >
-                        <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignContent: "center", marginTop: "20px" }}>
+                        <div className="nav_icons">
                             <div>
                                 <i className="pi pi-search" />
                             </div>

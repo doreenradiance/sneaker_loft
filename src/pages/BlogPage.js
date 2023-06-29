@@ -2,14 +2,13 @@ import React from "react";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import "../styles/homePage.scss"
-import ShoesCarousel from "./ShoesCarousel";
+// import ShoesCarousel from "../components/ShoesCarousel";
 import { TabView, TabPanel } from 'primereact/tabview';
 
 const BlogPage = () => {
 
     return (
         <div style={{ backgroundColor: "#F9F8F5" }}>
-            <div>
                 <div className="women_background_img" style={{ paddingLeft: "5rem" }}>
                     <NavBar backgroundColor="home-page_navBar" textColor="home-page_navBar_text_color" />
                     <div className="home-title" style={{ margin: "auto", width: "90%", padding: "10px", top: "150px" }}>
@@ -23,7 +22,6 @@ const BlogPage = () => {
                         </div>
                     </div>
                 </div>
-            </div >
             <div>
                 <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-around", marginTop: "80px", marginBottom: "2rem" }}>
                     <div>

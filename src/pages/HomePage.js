@@ -2,10 +2,9 @@ import React from "react";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import "../styles/homePage.scss"
-import ShoesCarousel from "./ShoesCarousel";
+import ShoesCarousel from "../components/ShoesCarousel";
 
 function HomePage() {
-
     return (
         <>
             <div>
@@ -26,8 +25,8 @@ function HomePage() {
                     </div>
                 </div>
                 <div>
-                    <div style={{ margin: "20px", padding: "1rem", backgroundColor: "#fff", width: "1550px", height: "50px", top: "836px", display: "flex", flex: "row", }}>
-                        <button className="home-category" style={{ background: "#F3DF77" }}>All Shoes</button>
+                    <div className="home_category_div">
+                        <button className="home-category" style={{ background: "#F3DF77", marginLeft: "3rem" }}>All Shoes</button>
                         <button className="home-category">Suede</button>
                         <button className="home-category">Hiking</button>
                         <button className="home-category">Apparel</button>
@@ -36,7 +35,7 @@ function HomePage() {
                         <button className="home-category">Workout & Gym</button>
                         <button className="home-category">Basketball</button>
                         <button className="home-category">Golf</button>
-                        <button className="home-category">Slippers</button>
+                        <button className="home-category" style={{ marginRight: "3rem" }}>Slippers</button>
                     </div>
                 </div>
                 <div style={{ backgroundColor: "#F9F8F5", paddingLeft: "4rem" }}>
