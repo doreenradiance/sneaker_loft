@@ -3,19 +3,16 @@ import Footer from "../components/Footer";
 import { InputText } from "primereact/inputtext";
 import { Button } from "primereact/button";
 import "../styles/contact.scss";
-import "../styles/signUp.scss"
+import "../styles/signUp.scss";
 
 function ForgotPassword() {
     return (
         <>
             <div className="grid" style={{ backgroundColor: "#F5F5F5" }}>
                 <div className="col-12 md:col-6 lg:col-6" style={{ padding: "4rem" }} >
-                    <button style={{
-                        border: "none", top: "41px", background: "#F3DF77", width: "168px", height: "56.662px", flexShrink: "0",
-                        borderRadius: "32.805px", fontWeight: "bold", fontSize: "17.121px",
-                    }}>
-                        <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-around" }}>
-                            <i className="pi pi-reddit" style={{ color: "white", fontSize: "20px" }} />
+                    <button className="sneaker_btn">
+                        <div className="logo_icon_div">
+                            <i className="pi pi-reddit logo_icon" />
                             <div>Sneakerloft</div>
                         </div>
                     </button>
@@ -29,13 +26,12 @@ function ForgotPassword() {
                         </div>
                         <InputText className="contact_inputs" />
 
-                        <div>
-                            <Button className="create_button" label="Send reset link" type="signup" />
+                        <div style={{ marginTop: "1.5rem" }}>
+                            <Button className="forgot_button" label="Send reset link" type="signup" />
                         </div>
 
                     </form>
                 </div>
-
 
                 <div className="col-12 md:col-6 lg:col-6">
                     <img src="images/sidebar_brevo.webp3.png" alt="women" className="forgot_password_image" />

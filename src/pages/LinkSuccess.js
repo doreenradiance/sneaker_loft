@@ -1,23 +1,22 @@
 import React from "react";
 import Footer from "../components/Footer";
+import "../styles/success.scss";
+import "../styles/signUp.scss"
 
 function LinkSuccess() {
     return (
-        <div style={{ backgroundColor: "#F5F5F5"}}>
-            <button style={{margin:"4rem",
-                border: "none", top: "41px", background: "#F3DF77", width: "168px", height: "56.662px",
-                flexShrink: "0", borderRadius: "32.805px", fontWeight: "bold", fontSize: "17.121px"
-            }}>
-                <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-around" }}>
-                    <i className="pi pi-reddit" style={{ color: "white", fontSize: "20px" }} />
+        <div style={{ backgroundColor: "#F5F5F5",padding: "2rem" }}>
+            <button className="sneaker_btn">
+                <div className="logo_icon_div">
+                    <i className="pi pi-reddit logo_icon" />
                     <div>Sneakerloft</div>
                 </div>
             </button>
-            <div style={{ textAlign: "center", width: "300px", height: "320px", margin: " 0 auto", backgroundColor: "white", color: "#000000", display: "flex", flexDirection: "column", marginBottom: "4rem" }}>
-                <img src="./images/Frame 3983.png" alt="" style={{ height: "40px", width: "40px", alignSelf: "center", marginTop: "3rem" }} />
-                <div style={{ marginTop: "1.5rem" }}>New password set sucessfully.</div>
+            <div className="center_div">
+                <img src="./images/Frame 3983.png" alt="" className="img_icon" />
+                <div className="password_set_txt">New password set successfully.</div>
 
-                <button style={{ marginTop: "5rem", height: "3rem", width: "13rem", borderRadius: "0.2rem", color: "#F3DF77", backgroundColor: "#000000", alignSelf: "center" }}>Back To Login</button>
+                <button className="log_btn">Back To Login</button>
             </div>
             <Footer />
         </div>

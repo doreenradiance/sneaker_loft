@@ -1,0 +1,32 @@
+.center_div {
+    text-align: center;
+    width: 300px;
+    height: 320px;
+    margin: 0 auto;
+    background-color: white;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4rem;
+}
+
+.img_icon {
+    height: 40px;
+    width: 40px;
+    align-self: center;
+    margin-top: 3rem;
+}
+
+.log_btn {
+    margin-top: 5rem;
+    height: 3rem;
+    width: 13rem;
+    border-radius: 0.2rem;
+    color: #F3DF77;
+    background-color: #000000;
+    align-self: center;
+}
+
+.password_set_txt {
+    margin-top: 1.5rem;
+}
