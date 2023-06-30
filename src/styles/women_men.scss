@@ -1,0 +1,84 @@
+.renderWomen_div,
+.renderMen_div {
+    background-color: whitesmoke;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 30rem;
+    border-radius: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.h1 {
+    margin-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 30px;
+    font-family: Nohemi;
+    font-weight: 600;
+    color: #000000;
+}
+
+.div2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FDF7F1;
+    border-radius: 0.2rem;
+    width: 100%;
+    height: 85px;
+    margin-left: 1.3rem;
+}
+
+.most_popular_txt {
+    color: #000000;
+    width: 128px;
+    padding-left: 0.2rem;
+    padding-top: 0;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    font-family: Nohemi;
+}
+
+.most_viewed {
+    font-size: 15px;
+    color: #b3b3b3;
+    margin-left: 0.2rem;
+}
+
+.icon_div {
+    margin-top: 1.2rem;
+    margin-left: auto;
+}
+
+.div3 {
+    margin-left: 0.5rem;
+    margin-top: 2rem;
+}
+
+.new_arrival_txt {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Nohemi;
+}
+
+.view_all_txt {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Nohemi;
+    margin-top: 1rem;
+}
+
+.see_all_txt,
+.latest_arrival_txt {
+    color: #b3b3b3;
+    font-size: 15px;
+}
+
+.images {
+    height: 400px;
+    width: 100%;
+    border-radius: 0.5rem;
+}

@@ -36,7 +36,9 @@ const CartMoreInfoSection = (cloudmonster_text, max_cushioning_text, price, decr
 function CartMoreInfo() {
     return (
         <>
-            <NavBar backgroundColor="profile-info-page_navBar" style={{ position: "relative" }} />
+            <div style={{ backgroundColor: "#F5F5F5" }}>
+                <NavBar backgroundColor="profile-info-page_navBar" style={{ position: "relative" }} />
+            </div>
 
             <div style={{ backgroundColor: "whiteSmoke" }} className="grid">
                 <div className="col-12 md:col-6 lg:col-6">

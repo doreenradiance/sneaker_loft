@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "../components/NavBar";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRightFromBracket, faXmark, faCheck } from '@fortawesome/free-solid-svg-icons';
+import { faXmark, faCheck } from '@fortawesome/free-solid-svg-icons';
 import "../styles/profile.scss";
 import Footer from "../components/Footer";
 import MyProfileSidebar from "../components/MyProfileSidebar"

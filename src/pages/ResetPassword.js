@@ -10,12 +10,9 @@ function ResetPassword() {
         <>
             <div className="grid" style={{ backgroundColor: "#F5F5F5" }}>
                 <div className="col-12 md:col-6 lg:col-6" style={{ padding: "4rem" }} >
-                    <button style={{
-                        // marginLeft: "5rem",
-                        border: "none", top: "41px", background: "#F3DF77", width: "168px", height: "56.662px", flexShrink: "0",
-                        borderRadius: "32.805px", fontWeight: "bold", fontSize: "17.121px",
-                    }}><div style={{ display: "flex", flexDirection: "row", justifyContent: "space-around" }}>
-                            <i className="pi pi-reddit" style={{ color: "white", fontSize: "20px" }} />
+                    <button className="sneaker_btn">
+                        <div className="logo_icon_div">
+                            <i className="pi pi-reddit logo_icon"  />
                             <div>Sneakerloft</div>
                         </div>
                     </button>
@@ -34,8 +31,8 @@ function ResetPassword() {
                         </div>
                         <InputText className="contact_inputs" />
 
-                        <div>
-                            <Button className="create_button" label="Create New Password" type="signup" />
+                        <div style={{ marginTop: "2rem" }}>
+                            <Button className="reset_button" label="Create New Password" type="signup" />
                         </div>
                     </form>
                 </div>

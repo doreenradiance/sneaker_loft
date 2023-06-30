@@ -53,12 +53,14 @@ function App() {
       {/* <CheckoutEmpty /> */}
       {/* <BlogInfo /> */}
       {/* <CheckoutSideForm1 /> */}
+      <CheckoutSideForm2 />
+      {/* <CheckoutSuccess /> */}
 
       {/* <HomePage /> */}
       {/* <MensCollection /> */}
       {/* <WomenCollection /> */}
       {/* <ShoeInfo /> */}
-      <BlogPage />
+      {/* <BlogPage /> */}
     </div>
   );
 }
