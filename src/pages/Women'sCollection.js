@@ -10,14 +10,14 @@ function WomenCollection() {
     return (
         <>
             <div>
-                <div className="women_background_img">
+                <div className="women_background_img" style={{ paddingLeft: "5rem" }}>
                     <NavBar backgroundColor="home-page_navBar" textColor="home-page_navBar_text_color" />
-                    <div className="home-title collection-main-div">
-                        <div className="home-title-content" style={{ textAlign: "center" }}>
-                            <span className="collection-txt">
+                    <div className="grid home-title" style={{ margin: "auto", width: "90%", padding: "10px", top: "150px" }}>
+                        <div className="col-12 md:col-12 lg:col-12 sm:col-12 home-title-content" style={{ textAlign: "center" }}>
+                            <span style={{ fontFamily: "Nohemi", fontWeight: "600px", fontSize: "86px", lineHeight: "100px" }}>
                                 Women's shoe collection
                             </span>
-                            <span className="lorem-txt">
+                            <span style={{ fontFamily: "Aeonik", fontWeight: "500px", fontSize: "24px", lineHeight: "28.8px" }}>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit
                             </span>
                         </div>
