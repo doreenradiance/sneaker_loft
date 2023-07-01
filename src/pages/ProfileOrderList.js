@@ -11,11 +11,7 @@ const ProfileCardSection = (order_text, no_items, date, price, confirming_order)
             <div>
                 <i className="pi pi-shopping-bag" style={{ padding: "0", marginTop: "3rem" }} />
                 <div className="grid" style={{ display: "flex", justifyContent: "space-around", marginLeft: "3rem" }}>
-                    {/* <div> */}
-
-                    {/* </div> */}
                     <div className="col-12 md:col-6 lg:col-6">
-
                         <div style={{ display: "flex", flexDirection: "row", margin: "0" }}>
                             <p className="order_text">{order_text}</p> <button className="no_items">{no_items}</button>
                         </div>
@@ -31,10 +27,12 @@ const ProfileCardSection = (order_text, no_items, date, price, confirming_order)
         </div>
     )
 }
-function ProfileOrderListInfo() {
+function ProfileOrderList() {
     return (
         <>
-            <NavBar backgroundColor="profile-info-page_navBar" />
+            <div style={{ backgroundColor: "#F5F5F5" }} >
+                <NavBar />
+            </div>
             <div className="grid info_main_div">
                 <div className="col-12 md:col-6 lg:col-4" >
                     <MyProfileSidebar />
@@ -59,4 +57,4 @@ function ProfileOrderListInfo() {
         </>
     )
 }
-export default ProfileOrderListInfo;
+export default ProfileOrderList;
