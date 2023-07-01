@@ -27,13 +27,13 @@ const BlogPage = () => {
                 </div>
             </div >
             <div>
-                <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-around", marginTop: "80px", marginBottom: "2rem" }}>
-                    <div>
+                <div className="grid" style={{ marginTop: "80px", marginBottom: "2rem" }}>
+                    <div className="col-12 md:col-6 lg:col-7 sm:col-3">
                         <div style={{ marginLeft: "2rem", marginBottom: "2rem" }}>
-                            <img style={{ width: "100%", height: "656px" }} src="images\blog-page-home.png" alt="blog-page" />
+                            <img style={{ width: "100%", height: "50%" }} src="images\blog-page-home.png" alt="blog-page" />
                         </div>
                     </div>
-                    <div>
+                    <div className="col-12 md:col-6 lg:col-4 sm:col-3">
                         <div style={{ marginLeft: "4rem" }}>
                             <div style={{ marginBottom: "0.5rem" }}>
                                 <span style={{ font: "Inter", fontWeight: "700", fontSize: "12.41px", lineHeight: "20.22px", color: "#6B7C93" }}>
@@ -67,9 +67,9 @@ const BlogPage = () => {
                                 <div className="col-12 md:col-6 lg:col-3 sm:col-3" style={{ color: "black" }} >
                                     <div style={{ display: "flex", flexDirection: "column" }}>
                                         {/* <p className="Italy_txt">Made in Italy</p> */}
-                                        <img src="images\GREATS-Mens-EssexPennyLoafer-BlackMulti-01_Web.jpg.png" alt="one"
-                                            style={{ width: "100%", height: "300px" }} />
-                                        <div className="fav_texts_div card-sections" style={{ backgroundColor: "white", width: "100%", padding: "1rem" }}>
+                                        <img src="images\div.product_slider_img_main (2).png" alt="one"
+                                            style={{ width: "85%", height: "270px" }} />
+                                        <div className="fav_texts_div card-sections" style={{ width: "85%", padding: "1rem" }}>
                                             <p style={{ color: "#6B7C93", fontFamily: "Inter", fontWeight: "700", fontSize: "12.41px", lineHeight: "16.13px" }} >BLOG POST</p>
                                             <p style={{ color: "#37383C", fontFamily: "Inter", fontWeight: "700", fontSize: "16px", lineHeight: "23.88px" }} >How to know quality shoe products when delivered</p>
                                         </div>
@@ -78,9 +78,9 @@ const BlogPage = () => {
                                 <div className="col-12 md:col-6 lg:col-3 sm:col-3" style={{ color: "black" }} >
                                     <div style={{ display: "flex", flexDirection: "column" }}>
                                         {/* <p className="Italy_txt">Made in Italy</p> */}
-                                        <img src="images/GREATS-Womens-Charlie-Blanco-01_Web.jpg.png"
-                                            style={{ width: "100%", height: "300px" }} alt="two" />
-                                        <div className="fav_texts_div card-sections" style={{ backgroundColor: "white", width: "100%", padding: "1rem" }}>
+                                        <img src="images\Link ⏵ Mixpanel-Boards_collaboration-product-insights--768x432.png.png"
+                                            style={{ width: "85%", height: "270px" }} alt="two" />
+                                        <div className="fav_texts_div card-sections" style={{ width: "85%", padding: "1rem" }}>
                                             <p style={{ color: "#6B7C93", fontFamily: "Inter", fontWeight: "700", fontSize: "12.41px", lineHeight: "16.13px" }} >BLOG POST</p>
                                             <p style={{ color: "#37383C", fontFamily: "Inter", fontWeight: "700", fontSize: "16px", lineHeight: "23.88px" }} >How to know quality shoe products when delivered</p>
                                         </div>
@@ -88,9 +88,9 @@ const BlogPage = () => {
                                 </div>
                                 <div className="col-12 md:col-6 lg:col-3 sm:col-3" style={{ color: "black" }} >
                                     <div style={{ display: "flex", flexDirection: "column" }}>                                    {/* <p className="Italy_txt">Made in Italy</p> */}
-                                        <img src="images\GREATS-Mens-RoyaleKnit-TonalOlive-01_Web.jpg.png"
-                                            style={{ width: "100%", height: "300px" }} alt="three" />
-                                        <div className="fav_texts_div card-sections" style={{ backgroundColor: "white", width: "100%", padding: "1rem" }}>
+                                        <img src="images\GREATS-Mens-EssexPennyLoafer-BlackMulti-01_Web.jpg.png"
+                                            style={{ width: "85%", height: "270px" }} alt="three" />
+                                        <div className="fav_texts_div card-sections" style={{ width: "85%", padding: "1rem" }}>
                                             <p style={{ color: "#6B7C93", fontFamily: "Inter", fontWeight: "700", fontSize: "12.41px", lineHeight: "16.13px" }} >INSIDE MIXPANEL</p>
                                             <p style={{ color: "#37383C", fontFamily: "Inter", fontWeight: "700", fontSize: "16px", lineHeight: "23.88px" }} >How to know quality shoe products when delivered</p>
                                         </div>
@@ -98,9 +98,9 @@ const BlogPage = () => {
                                 </div>
                                 <div className="col-12 md:col-6 lg:col-3 sm:col-3" style={{ color: "black" }} >
                                     <div style={{ display: "flex", flexDirection: "column" }}>                                    {/* <p className="Italy_txt">Made in Italy</p> */}
-                                        <img src="images\GREATS-Mens-RoyaleKnit-TonalOlive-01_Web.jpg.png"
-                                            style={{ width: "100%", height: "300px" }} alt="three" />
-                                        <div className="fav_texts_div card-sections" style={{ backgroundColor: "white", width: "100%", padding: "1rem" }}>
+                                        <img src="images\Link ⏵ DataVC_Blog_1914x1075-768x433.png.png"
+                                            style={{ width: "85%", height: "270px" }} alt="three" />
+                                        <div className="fav_texts_div card-sections" style={{ width: "85%", padding: "1rem" }}>
                                             <p style={{ color: "#6B7C93", fontFamily: "Inter", fontWeight: "700", fontSize: "12.41px", lineHeight: "16.13px" }} >BLOG POST</p>
                                             <p style={{ color: "#37383C", fontFamily: "Inter", fontWeight: "700", fontSize: "16px", lineHeight: "23.88px" }} >How to know quality shoe products when delivered</p>
                                         </div>
@@ -113,7 +113,7 @@ const BlogPage = () => {
                                     <span style={{ color: "#6B7C93", fontFamily: "Inter", fontWeight: "400", fontSize: "14.31px", lineHeight: "27.67px" }}> Mi quis hendrerit dolor magna eget est loremant
                                     </span>
                                 </div>
-                                <div style={{ marginBottom: "1.5rem", display: "flex", flexDirection: "row", width: "auto", marginRight: "10px", height: "auto", top: "82.97px" }}>
+                                <div style={{ marginBottom: "5rem", display: "flex", flexDirection: "row", width: "auto", marginRight: "10px", height: "auto", top: "82.97px" }}>
                                     <button style={{ color: "#1868FB", width: "auto", marginRight: "10px", height: "auto", borderRadius: "4px", border: "1px solid #1868FB", padding: "3px 9px 4px 9px" }}>All</button>
                                     <button style={{ width: "auto", marginRight: "10px", height: "auto", borderRadius: "4px", border: "1px solid #CFD6E4", padding: "3px 9px 4px 9px", }}>Shoe Purchase</button>
                                     <button style={{ width: "auto", marginRight: "10px", height: "auto", borderRadius: "4px", border: "1px solid #CFD6E4", padding: "3px 9px 4px 9px", }}>Shoe Maintenance</button>
@@ -126,14 +126,14 @@ const BlogPage = () => {
                                     <div className="grid" style={{ marginBottom: "20px" }}>
                                         <div className="col-12 md:col-6 lg:col-4 sm:col-3" style={{ display: "flex", flexDirection: "column", color: "black" }} >
                                             {/* <p className="Italy_txt">Made in Italy</p> */}
-                                            <img style={{ width: "100%", height: "50%" }} src="images\GREATS-Mens-EssexPennyLoafer-BlackMulti-01_Web.jpg.png" alt="one" />
-                                            <div className="fav_texts_div card-sections" style={{ backgroundColor: "white", width: "100%", padding: "1rem" }}>
+                                            <img style={{ width: "90%", height: "60%" }} src="images\Market_AmirBlog_Header_1920x1080-768x432.png.png" alt="one" />
+                                            <div className="fav_texts_div card-sections" style={{ height: "100%", backgroundColor: "white", width: "90%", padding: "1rem" }}>
                                                 <p style={{ color: "#6B7C93", fontFamily: "Inter", fontWeight: "700", fontSize: "12.41px", lineHeight: "16.13px" }} >INSIDE BLOG</p>
                                                 <p style={{ color: "#37383C", fontFamily: "Inter", fontWeight: "700", fontSize: "16px", lineHeight: "23.88px" }}> How to know quality shoe products when delivered </p>
                                                 <p style={{ color: "#6B7C93", fontFamily: "Inter", fontWeight: "400", fontSize: "14.3px", lineHeight: "22.9px" }} >There are a lot of factors to weigh when choosing a new pair of shoes. To some it can be overwhelming so we have decided to help you through it....</p>
                                                 <div className="grid" style={{ alignItems: "center", display: "flex", flexDirection: "row" }}>
                                                     <div style={{ alignItems: "center" }}>
-                                                        <img style={{ width: "45.8px", height: "45.8px", borderRadius: "23px" }} src="images\manager-avatar.png" alt="blog-page" />
+                                                        <img style={{ width: "45.8px", height: "45.8px", borderRadius: "23px" }} src="images\Picture ⏵ T024QH38W-U04CKSNU7GD-629d9ab9196e-512-62x62.jpeg.png" alt="blog-page" />
                                                     </div>
                                                     <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", width: "199.8px", height: "41px", padding: "0px 12px 0px 14px" }}>
                                                         <div style={{ fontFamily: "Inter", fontWeight: "700", fontSize: "13.36px", lineHeight: "22.9px" }}>Kavan Sabnani</div>
@@ -144,14 +144,14 @@ const BlogPage = () => {
                                         </div>
                                         <div className="col-12 md:col-6 lg:col-4 sm:col-3" style={{ display: "flex", flexDirection: "column", color: "black" }} >
                                             {/* <p className="Italy_txt">Made in Italy</p> */}
-                                            <img style={{ width: "100%", height: "50%" }} src="images\GREATS-Mens-EssexPennyLoafer-BlackMulti-01_Web.jpg.png" alt="one" />
-                                            <div className="fav_texts_div card-sections" style={{ backgroundColor: "white", width: "100%", padding: "1rem" }}>
+                                            <img style={{ width: "90%", height: "60%" }} src="images\Link ⏵ DataVC_Blog_1914x1075-768x433.png.png" alt="one" />
+                                            <div className="fav_texts_div card-sections" style={{ height: "100%", backgroundColor: "white", width: "90%", padding: "1rem" }}>
                                                 <p style={{ color: "#6B7C93", fontFamily: "Inter", fontWeight: "700", fontSize: "12.41px", lineHeight: "16.13px" }} >INSIDE BLOG</p>
                                                 <p style={{ color: "#37383C", fontFamily: "Inter", fontWeight: "700", fontSize: "16px", lineHeight: "23.88px" }}> How to know quality shoe products when delivered </p>
                                                 <p style={{ color: "#6B7C93", fontFamily: "Inter", fontWeight: "400", fontSize: "14.3px", lineHeight: "22.9px" }} >There are a lot of factors to weigh when choosing a new pair of shoes. To some it can be overwhelming so we have decided to help you through it....</p>
                                                 <div className="grid" style={{ alignItems: "center", display: "flex", flexDirection: "row" }}>
                                                     <div style={{ alignItems: "center" }}>
-                                                        <img style={{ width: "45.8px", height: "45.8px", borderRadius: "23px" }} src="images\manager-avatar.png" alt="blog-page" />
+                                                        <img style={{ width: "45.8px", height: "45.8px", borderRadius: "23px" }} src="images\div.avatar (1).png" alt="blog-page" />
                                                     </div>
                                                     <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", width: "199.8px", height: "41px", padding: "0px 12px 0px 14px" }}>
                                                         <div style={{ fontFamily: "Inter", fontWeight: "700", fontSize: "13.36px", lineHeight: "22.9px" }}>Kavan Sabnani</div>
@@ -162,16 +162,74 @@ const BlogPage = () => {
                                         </div>
                                         <div className="col-12 md:col-6 lg:col-4 sm:col-3" style={{ display: "flex", flexDirection: "column", color: "black" }} >
                                             {/* <p className="Italy_txt">Made in Italy</p> */}
-                                            <img style={{ width: "100%", height: "50%" }} src="images\GREATS-Mens-EssexPennyLoafer-BlackMulti-01_Web.jpg.png" alt="one" />
-                                            <div className="fav_texts_div card-sections" style={{ backgroundColor: "white", width: "100%", padding: "1rem" }}>
+                                            <img style={{ width: "90%", height: "60%" }} src="images\Market_AmirBlog_Header_1920x1080-768x432.png.png" alt="one" />
+                                            <div className="fav_texts_div card-sections" style={{ height: "100%", backgroundColor: "white", width: "90%", padding: "1rem" }}>
                                                 <p style={{ color: "#6B7C93", fontFamily: "Inter", fontWeight: "700", fontSize: "12.41px", lineHeight: "16.13px" }} >INSIDE BLOG</p>
                                                 <p style={{ color: "#37383C", fontFamily: "Inter", fontWeight: "700", fontSize: "16px", lineHeight: "23.88px" }}> How to know quality shoe products when delivered </p>
                                                 <p style={{ color: "#6B7C93", fontFamily: "Inter", fontWeight: "400", fontSize: "14.3px", lineHeight: "22.9px" }} >There are a lot of factors to weigh when choosing a new pair of shoes. To some it can be overwhelming so we have decided to help you through it....</p>
                                                 <div className="grid" style={{ alignItems: "center", display: "flex", flexDirection: "row" }}>
                                                     <div style={{ alignItems: "center" }}>
-                                                        <img style={{ width: "45.8px", height: "45.8px", borderRadius: "23px" }} src="images\manager-avatar.png" alt="blog-page" />
+                                                        <img style={{ width: "45.8px", height: "45.8px", borderRadius: "23px" }} src="images\div.avatar (1).png" alt="blog-page" />
                                                     </div>
-                                                    <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", width: "199.8px", height: "41px", padding: "12px 12px 0px 14px" }}>
+                                                    <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", width: "199.8px", height: "41px", padding: "0px 12px 0px 14px" }}>
+                                                        <div style={{ fontFamily: "Inter", fontWeight: "700", fontSize: "13.36px", lineHeight: "22.9px" }}>Kavan Sabnani</div>
+                                                        <div style={{ color: "#6B7C93", fontFamily: "Inter", fontWeight: "400", fontSize: "10.5px", lineHeight: "17.2px" }}>Staff Product Manager @shoez</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div className="grid" style={{ marginBottom: "20px" }}>
+                                        <div className="col-12 md:col-6 lg:col-4 sm:col-3" style={{ display: "flex", flexDirection: "column", color: "black" }} >
+                                            {/* <p className="Italy_txt">Made in Italy</p> */}
+                                            <img style={{ width: "90%", height: "60%" }} src="images\Market_AmirBlog_Header_1920x1080-768x432.png.png" alt="one" />
+                                            <div className="fav_texts_div card-sections" style={{ height: "100%", backgroundColor: "white", width: "90%", padding: "1rem" }}>
+                                                <p style={{ color: "#6B7C93", fontFamily: "Inter", fontWeight: "700", fontSize: "12.41px", lineHeight: "16.13px" }} >INSIDE BLOG</p>
+                                                <p style={{ color: "#37383C", fontFamily: "Inter", fontWeight: "700", fontSize: "16px", lineHeight: "23.88px" }}> How to know quality shoe products when delivered </p>
+                                                <p style={{ color: "#6B7C93", fontFamily: "Inter", fontWeight: "400", fontSize: "14.3px", lineHeight: "22.9px" }} >There are a lot of factors to weigh when choosing a new pair of shoes. To some it can be overwhelming so we have decided to help you through it....</p>
+                                                <div className="grid" style={{ alignItems: "center", display: "flex", flexDirection: "row" }}>
+                                                    <div style={{ alignItems: "center" }}>
+                                                        <img style={{ width: "45.8px", height: "45.8px", borderRadius: "23px" }} src="images\div.avatar (3).png" alt="blog-page" />
+                                                    </div>
+                                                    <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", width: "199.8px", height: "41px", padding: "0px 12px 0px 14px" }}>
+                                                        <div style={{ fontFamily: "Inter", fontWeight: "700", fontSize: "13.36px", lineHeight: "22.9px" }}>Kavan Sabnani</div>
+                                                        <div style={{ color: "#6B7C93", fontFamily: "Inter", fontWeight: "400", fontSize: "10.5px", lineHeight: "17.2px" }}>Staff Product Manager @shoez</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-12 md:col-6 lg:col-4 sm:col-3" style={{ display: "flex", flexDirection: "column", color: "black" }} >
+                                            {/* <p className="Italy_txt">Made in Italy</p> */}
+                                            <img style={{ width: "90%", height: "60%" }} src="images\FoundationTemplates_Blog-768x432.png.png" alt="one" />
+                                            <div className="fav_texts_div card-sections" style={{ height: "100%", backgroundColor: "white", width: "90%", padding: "1rem" }}>
+                                                <p style={{ color: "#6B7C93", fontFamily: "Inter", fontWeight: "700", fontSize: "12.41px", lineHeight: "16.13px" }} >INSIDE BLOG</p>
+                                                <p style={{ color: "#37383C", fontFamily: "Inter", fontWeight: "700", fontSize: "16px", lineHeight: "23.88px" }}> How to know quality shoe products when delivered </p>
+                                                <p style={{ color: "#6B7C93", fontFamily: "Inter", fontWeight: "400", fontSize: "14.3px", lineHeight: "22.9px" }} >There are a lot of factors to weigh when choosing a new pair of shoes. To some it can be overwhelming so we have decided to help you through it....</p>
+                                                <div className="grid" style={{ alignItems: "center", display: "flex", flexDirection: "row" }}>
+                                                    <div style={{ alignItems: "center" }}>
+                                                        <img style={{ width: "45.8px", height: "45.8px", borderRadius: "23px" }} src="images\Picture ⏵ T024QH38W-U04CKSNU7GD-629d9ab9196e-512-62x62.jpeg.png" alt="blog-page" />
+                                                    </div>
+                                                    <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", width: "199.8px", height: "41px", padding: "0px 12px 0px 14px" }}>
+                                                        <div style={{ fontFamily: "Inter", fontWeight: "700", fontSize: "13.36px", lineHeight: "22.9px" }}>Kavan Sabnani</div>
+                                                        <div style={{ color: "#6B7C93", fontFamily: "Inter", fontWeight: "400", fontSize: "10.5px", lineHeight: "17.2px" }}>Staff Product Manager @shoez</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-12 md:col-6 lg:col-4 sm:col-3" style={{ display: "flex", flexDirection: "column", color: "black" }} >
+                                            {/* <p className="Italy_txt">Made in Italy</p> */}
+                                            <img style={{ width: "90%", height: "60%" }} src="images\Mixpanel-Brand-4-768x432.png.png" alt="one" />
+                                            <div className="fav_texts_div card-sections" style={{ height: "100%", backgroundColor: "white", width: "90%", padding: "1rem" }}>
+                                                <p style={{ color: "#6B7C93", fontFamily: "Inter", fontWeight: "700", fontSize: "12.41px", lineHeight: "16.13px" }} >INSIDE BLOG</p>
+                                                <p style={{ color: "#37383C", fontFamily: "Inter", fontWeight: "700", fontSize: "16px", lineHeight: "23.88px" }}> How to know quality shoe products when delivered </p>
+                                                <p style={{ color: "#6B7C93", fontFamily: "Inter", fontWeight: "400", fontSize: "14.3px", lineHeight: "22.9px" }} >There are a lot of factors to weigh when choosing a new pair of shoes. To some it can be overwhelming so we have decided to help you through it....</p>
+                                                <div className="grid" style={{ alignItems: "center", display: "flex", flexDirection: "row" }}>
+                                                    <div style={{ alignItems: "center" }}>
+                                                        <img style={{ width: "45.8px", height: "45.8px", borderRadius: "23px" }} src="images\Picture ⏵ T024QH38W-U04CKSNU7GD-629d9ab9196e-512-62x62.jpeg.png" alt="blog-page"/>
+                                                    </div>
+                                                    <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", width: "199.8px", height: "41px", padding: "0px 12px 0px 14px" }}>
                                                         <div style={{ fontFamily: "Inter", fontWeight: "700", fontSize: "13.36px", lineHeight: "22.9px" }}>Kavan Sabnani</div>
                                                         <div style={{ color: "#6B7C93", fontFamily: "Inter", fontWeight: "400", fontSize: "10.5px", lineHeight: "17.2px" }}>Staff Product Manager @shoez</div>
                                                     </div>

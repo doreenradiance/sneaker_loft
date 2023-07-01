@@ -21,8 +21,8 @@ function Footer() {
                             <div className="col-12 md:col-6 lg:col-6"><p className="bold_texts">About us</p>
                                 <div className="grid">
                                     <div className="col-12 md:col-6 lg:col-6">
-                                        <div className="about_us_div">
-                                            <div>
+                                        <div>
+                                            <div className="about_us_div">
                                                 <p className="footer_p">Our Story</p>
                                                 <p className="footer_p">Review</p>
                                                 <p className="footer_p">Military Discount</p>
@@ -30,11 +30,14 @@ function Footer() {
                                         </div>
                                     </div>
                                     <div className="col-12 md:col-6 lg:col-6">
-                                        <div className="col-12 md:col-6 lg:col-6 footer_p_div">
-                                            <p className="footer_p">The Play book</p>
-                                            <p className="footer_p">Teacher Discount</p>
-                                            <p className="footer_p">Student Discount</p>
-                                        </div></div>
+                                        <div>
+                                            <div className="about_us_div">
+                                                <p className="footer_p">The Play book</p>
+                                                <p className="footer_p">Teacher Discount</p>
+                                                <p className="footer_p">Student Discount</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div className="col-12 md:col-6 lg:col-6">
@@ -59,24 +62,24 @@ function Footer() {
                     </div>
                 </div>
 
-                <div className="grid footer_last_div">
-                    <div className="col-12 md:col-6 lg:col-6" >
-                        <div className="grid">
-                            <img src="images/igtransparent.png" alt="ig" className="footer_icons" style={{ marginLeft: "1.6rem" }} />
-                            <img src="images/png-fbtransparent.png" alt="fb" className="footer_icons" />
-                            <img src="images/twitter.png" alt="twit" className="footer_icons" />
+                <div className="grid footer_last_div" style={{ alignItems: "center" }} >
+                    <div className="col-12 md:col-6 lg:col-4">
+                        <div className="grid" style={{ marginLeft: "1.6rem" }}>
+                            <img src="images/igtransparent.png" alt="ig" className="footer_icons" style={{ marginRight: "1rem" }} />
+                            <img src="images/png-fbtransparent.png" alt="fb" className="footer_icons" style={{ marginRight: "1rem" }} />
+                            <img src="images/twitter.png" alt="twit" className="footer_icons" style={{ marginRight: "1rem" }} />
                             <img src="images/yttrans.png" alt="fb" className="footer_icons" />
                         </div>
                     </div>
-                    <div className="col-12 md:col-6 lg:col-6" style={{ display: "flex", flexDirection: "row" }}>
-                        <div className="grid">
-                            <div className="col-12 md:col-6 lg:col-4" style={{ display: "flex", flexDirection: "row" }}>
+                    <div className="col-12 md:col-6 lg:col-8" >
+                        <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between" }}>
+                            <div style={{ display: "flex", flexDirection: "row" }}>
                                 <div><img src="images/rr.png" alt="rr" className="reserved_icon" /></div>
                                 <div> <p className="rights_res_text">2023 All Rights Reserved.</p></div>
                             </div>
-                            <div className="col-12 md:col-6 lg:col-2"><p className="policy_text">Privacy Policy</p></div>
-                            <div className="col-12 md:col-6 lg:col-2"> <p className="terms">Terms & Conditions</p></div>
-                            <div className="col-12 md:col-6 lg:col-4">  <p className="personal_info_text">Do not sell my personal information</p> </div>
+                            <div className=""><p className="policy_text">Privacy Policy</p></div>
+                            <div className=""> <p className="terms">Terms & Conditions</p></div>
+                            <div className="">  <p className="personal_info_text">Do not sell my personal information</p> </div>
                         </div>
                     </div>
                 </div>

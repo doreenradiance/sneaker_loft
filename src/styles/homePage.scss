@@ -1,26 +1,26 @@
 .background_img {
     background-image: url(../../public/images/home-update.png);
-    position: relative;
+    // position: relative;
     width: 100vw;
     height: 632px;
     top: 0px;
+    color: #fff;
 }
 
 .men_background_img {
     // background-image: url(../../public/images/men_page.png);
     // position: absolute;
     background-image: url(../../public/images/men_page.png);
-    width: 1600px;
+    position: relative;
+    width: 100vw;
     height: 432px;
-    // left: calc(50% - 1600px/2);
-    top: 0px;
 }
 
 .women_background_img {
     background-image: url(../../public/images/women_page.png);
     position: relative;
-    width: 100%;
-    height: 55vh;
+    width: 100vw;
+    height: 432px;
 
     // left: calc(50% - 1600px/2);
     // top: 0px;
@@ -39,7 +39,7 @@
     }
 
     .home-page_navBar_text_color {
-        color: white;
+        color: white !important;
     }
 
     .home-title {
