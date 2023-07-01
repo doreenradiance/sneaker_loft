@@ -13,11 +13,11 @@ function CheckoutForm1() {
             <div style={{ backgroundColor: "#F5F5F5" }}>
                 <NavBar />
                 <div className="grid checkout_main_div" >
-                    <div className="col-6">
+                    <div className="col-12 md:col-6 col-6">
                         <CheckoutSideForm />
                     </div>
 
-                    <div style={{ marginTop: "9rem" }} className="col-6">
+                    <div style={{ marginTop: "9rem" }} className="col-12 md:col-6 col-6">
                         <CheckoutSideImages />
                         <div >
                             <CartSummary />
