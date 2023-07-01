@@ -48,7 +48,7 @@ function App() {
       {/* <LinkSuccessOne /> */}
       {/* <Contact/> */}
       {/* {<ProfileFavList />} */}
-      {/* <ProfileOrderList /> */}
+      <ProfileOrderList />
       {/* <ProfileOrderListInfo /> */}
       {/* <CheckoutEmpty /> */}
       {/* <BlogInfo /> */}
