@@ -48,12 +48,12 @@ function App() {
       {/* <LinkSuccessOne /> */}
       {/* <Contact/> */}
       {/* {<ProfileFavList />} */}
-      {/* <ProfileOrderList /> */}
+      <ProfileOrderList />
       {/* <ProfileOrderListInfo /> */}
       {/* <CheckoutEmpty /> */}
       {/* <BlogInfo /> */}
       {/* <CheckoutSideForm1 /> */}
-      <CheckoutSideForm2 />
+      {/* <CheckoutSideForm2 /> */}
       {/* <CheckoutSuccess /> */}
 
       {/* <HomePage /> */}

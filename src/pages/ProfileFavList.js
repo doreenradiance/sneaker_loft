@@ -24,29 +24,28 @@ function ProfileFavList() {
                     <div className="col-12 md:col-6 lg:col-4" >
                         <MyProfileSidebar />
                     </div>
-                    <div className="col-12 md:col-6 lg:col-8 my_fav_div">
+                    <div className="col-12 md:col-6 col-8" style={{ backgroundColor: "white", padding: "3rem" }}>
                         <p className="my_fav_txt">My Favorite</p>
-                        <div className="grid my_fav_div2">
-                            <div className="grid" style={{ display: "flex", flexDirection: "row", justifyContent: "space-between" }}>
-                                <div className="col-4" >
-                                    <div className="profile_back-img1">
-                                    <p className="Italy_txt">Made in Italy</p>
-                                    </div>
-                                    {/* <div>  <img className=" fav_image1" src="images/GREATS-Mens-Reign-RetroBlue-Black-01_Web.jpg.png" alt="one" /></div> */}
-                                    {cardSection("LIMITED EDITION", "Cloudmonster Sensa", "Maximum cushioning, road runs, all-day performance", "£189.00")}
-                                </div>
-                                <div className="col-4">
-                                    {/* <p className="Italy_txt">Made in Italy</p> */}
-                                    <img src="images/removal1.png"
-                                        className=" fav_image2" alt="two" />
-                                    {cardSection("LIMITED EDITION", "Cloudmonster Sensa", "Maximum cushioning, road runs, all-day performance", "£189.00")}
-                                </div>
-                                <div className="col-4">
-                                    <p className="Italy_txt">Made in Italy</p>
-                                    <img src="images/GREATS-Womens-Charlie-Blanco-01_Web.jpg.png"
-                                        className=" fav_image3" alt="three" />
-                                    {cardSection("LIMITED EDITION", "Cloudmonster Sensa", "Maximum cushioning, road runs, all-day performance", "£189.00")}
-                                </div>
+                        <div className="grid" style={{ display: "flex", flexDirection: "row" }}>
+                            <div className="col-12 md:col-6 col-4" >
+                                <p className="Italy_txt">Made in Italy</p>
+                                <img src="images/GREATS-Mens-Reign-RetroBlue-Black-01_Web.jpg.png"
+                                    className="profile_fav_img" alt="two" />
+                                {cardSection("LIMITED EDITION", "Cloudmonster Sensa", "Maximum cushioning, road runs, all-day performance", "£189.00")}
+
+                            </div>
+                            <div className="col-12 md:col-6 col-4" >
+                                <img src="images/removal1.png"
+                                    className="profile_fav_img" alt="two" />
+                                {cardSection("LIMITED EDITION", "Cloudmonster Sensa", "Maximum cushioning, road runs, all-day performance", "£189.00")}
+
+                            </div>
+                            <div className="col-12 md:col-6 col-4" >
+                                <p className="Italy_txt">Made in Italy</p>
+                                <img src="images/GREATS-Womens-St.JamesLow-Blanco-01Web.jpg (1).png"
+                                    className="profile_fav_img" alt="two" />
+                                {cardSection("LIMITED EDITION", "Cloudmonster Sensa", "Maximum cushioning, road runs, all-day performance", "£189.00")}
+
                             </div>
                         </div>
                     </div>
