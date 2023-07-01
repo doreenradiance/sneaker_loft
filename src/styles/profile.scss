@@ -5,6 +5,18 @@
     width: 15rem;
 }
 
+.profile-order-list-right-sidebar {
+    background-color: white;
+    padding: 2rem;
+    margin-top: 4rem;
+}
+
+.profile_hr {
+    height: 1px;
+    width: 91%;
+    background-color: #b1acb8;
+}
+
 .info_div {
     display: flex;
     flex-direction: row;
@@ -178,7 +190,11 @@
     padding-left: 2rem;
 }
 
-// .fav_image1,
+.profile_fav_img {
+    width: 19rem;
+    height: 18rem;
+}
+
 .fav_image2,
 .fav_image3 {
     width: 15rem;
@@ -202,12 +218,14 @@
 .profile_back-img3 {
     background-image: url(../../public/images/GREATS-Womens-St.JamesLow-Blanco-01_Web.jpg.png);
     position: relative;
-    width: 360px;
-    height: 360px;
+    width: auto;
+    height: auto;
 }
 
 .fav_texts_div {
     background-color: #F9F8F5;
+    margin-top: -15px;
+    width: 20.6vw;
     height: auto;
 }
 
@@ -251,10 +269,72 @@
     height: 380px;
 }
 
+.date {
+    margin: 0;
+    font-size: 11px;
+    font-family: Nohemi;
+    color: #b1acb8;
+}
 
+.no_items {
+    background-color: #F3DF77;
+    border-radius: 2rem;
+    border: none;
+    width: 4rem;
+    height: 1.5rem;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.p_hr {
+    height: 1px;
+    background-color: #b1acb8;
+    width: 82%;
+    margin-left: 3rem;
+}
+
+.profileCardSection {
+    margin-top: 4rem;
+    background-color: white;
+}
+
+.confirm-order-price {
+    font-size: 16px;
+    font-family: Nohemi;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+.confirm_order_txt {
+    font-size: 11px;
+    font-weight: 700;
+    font-family: Nohemi;
+    margin: 0;
+    color: #b1acb8;
+}
+
+.items_text {
+    background-color: #F3DF77;
+    border-radius: 2rem;
+    border: none;
+    width: 4rem;
+    height: 1.5rem;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 1rem;
+    text-align: center;
+    margin-top: 1.4rem;
+}
+
+.order-number {
+    font-weight: bold;
+    font-size: 20px;
+}
 
 .my_shoe-carousel-title {
-    // position: absolute;
     margin-top: 0rem;
     width: 653px;
     height: 100px;
@@ -269,4 +349,39 @@
 
 #price {
     margin-left: 0.5rem;
+}
+
+.profile_cloudmonster_text {
+    font-weight: bold;
+    font-size: large;
+    font-family: Nohemi;
+}
+
+.size {
+    font-family: Nohemi;
+    font-size: 10px;
+    flex-wrap: nowrap;
+    display: flex;
+}
+
+.cushioning_txt {
+    font-family: Nohemi;
+    font-size: 8px;
+    flex-wrap: nowrap;
+    display: flex;
+    margin: 0;
+    margin-top: 0.3rem;
+}
+
+.order-price {
+    margin-left: 3rem;
+    font-weight: bold;
+}
+
+.order-prices-no {
+    margin-top: 1rem;
+}
+
+.order_text {
+    font-weight: bold;
 }
