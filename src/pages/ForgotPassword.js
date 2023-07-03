@@ -16,12 +16,14 @@ function ForgotPassword() {
                             <div>Sneakerloft</div>
                         </div>
                     </button>
-                    <p className="contact_text">Forgot password</p>
-                    <p className="footer_p">We will send you a reset link to your mail. Remember password?</p>
-                    <p className="login_text">Login</p>
+                    <div style={{textAlign:'left',display:"flex"}}>
+                        <p className="forgot-password-text">Forgot password</p>
+                    </div>
+                    <p className="tap_p">We will send you a reset link to your mail. Remember password?</p>
+                    <p className="forgot_passwordlogin_text">Login</p>
                     <form>
-                        <div className="label-divs" >
-                            <label className="contact_labels">Email</label>
+                        <div className="email_label_div" >
+                            <label className="email_labels">Email</label>
                             <span className="required" >*</span>
                         </div>
                         <InputText className="contact_inputs" />

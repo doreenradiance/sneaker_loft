@@ -2,7 +2,7 @@
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
-    width: 15rem;
+    width: 25rem;
 }
 
 .profile-order-list-right-sidebar {
@@ -212,12 +212,16 @@
 .my_fav_txt {
     font-weight: 600;
     font-size: 22px;
-    padding-left: 2rem;
 }
 
-.profile_fav_img {
-    width: 19rem;
-    height: 18rem;
+.cardSection_div {
+    width: 100%;
+    height: 25%;
+}
+
+.profile_fav_imgs {
+    width: 100%;
+    height: 300px;
 }
 
 .fav_image2,
@@ -226,31 +230,9 @@
     height: 15rem;
 }
 
-.profile_back-img1 {
-    background-image: url(../../public/images/GREATS-Mens-Reign-RetroBlue-Black-01_Web.jpg.png);
-    position: relative;
-    width: 360px;
-    height: 360px;
-}
-
-.profile_back-img2 {
-    background-image: url(../../public/images/removal1.png);
-    position: relative;
-    width: 360px;
-    height: 360px;
-}
-
-.profile_back-img3 {
-    background-image: url(../../public/images/GREATS-Womens-St.JamesLow-Blanco-01_Web.jpg.png);
-    position: relative;
-    width: auto;
-    height: auto;
-}
-
 .fav_texts_div {
     background-color: #F9F8F5;
     margin-top: -15px;
-    width: 20.6vw;
     height: auto;
 }
 
@@ -295,7 +277,6 @@
 }
 
 .date {
-    margin: 0;
     font-size: 11px;
     font-family: Nohemi;
     color: #b1acb8;
@@ -317,8 +298,11 @@
 .p_hr {
     height: 1px;
     background-color: #b1acb8;
-    width: 82%;
-    margin-left: 3rem;
+}
+
+.p_hrx {
+    height: 1px;
+    background-color: red;
 }
 
 .profileCardSection {
@@ -390,6 +374,13 @@
     display: flex;
 }
 
+.right-side-main-div {
+    padding: 1rem 2rem 4rem 2rem;
+    background-color: white;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
 .cushioning_txt {
     font-family: Nohemi;
     font-size: 8px;
@@ -416,4 +407,22 @@
 
 .order_text {
     font-weight: bold;
+}
+
+.right_texts {
+    display: flex;
+    flex-direction: column;
+}
+
+.both_components {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0rem 1rem 0rem 1rem;
+}
+
+.bag_img {
+    height: 50px;
+    width: 48px;
+    margin-top: 1.3rem;
 }
