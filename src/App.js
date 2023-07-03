@@ -1,4 +1,6 @@
 import './App.css';
+import 'primeicons/primeicons.css';
+import "primereact/resources/primereact.min.css";
 import Men from "./pages/Men";
 import Women from './pages/Women';
 import SignUp from './pages/SignUp';
@@ -23,8 +25,6 @@ import ShoesCarousel from './components/ShoesCarousel';
 import ProfileOrderListInfo from './pages/ProfileOrderListInfo'
 import ProfileOrderList from './pages/ProfileOrderList'
 import CheckoutSuccess from './pages/CheckoutSuccess'
-import 'primeicons/primeicons.css';
-import "primereact/resources/primereact.min.css";
 import MensCollection from './pages/Men\'sCollection';
 import WomenCollection from './pages/Women\'sCollection';
 import ShoeInfo from './pages/ShoeInfo';

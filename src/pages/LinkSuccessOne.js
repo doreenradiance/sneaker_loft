@@ -6,15 +6,17 @@ import "../styles/signUp.scss"
 function LinkSuccessOne() {
     return (
         <div style={{ backgroundColor: "#F5F5F5" }}>
-            <button className="sneaker_btn">
-                <div className="logo_icon_div">
-                    <i className="pi pi-reddit logo_icon"/>
-                    <div>Sneakerloft</div>
-                </div>
-            </button>
+            <div style={{ padding: "2rem 0rem 0rem 6rem" }}>
+                <button className="sneaker_btn">
+                    <div className="logo_icon_div">
+                        <i className="pi pi-reddit logo_icon" />
+                        <div>Sneakerloft</div>
+                    </div>
+                </button>
+            </div>
 
             <div className="center_div">
-                <img src="./images/Frame 39831.png" alt=""  className="img_icon"/>
+                <img src="./images/Frame 39831.png" alt="" className="img_icon" />
                 <div style={{ marginTop: "1.5rem" }}>
                     <p className="p_sentence">We’ve sent a password reset link to your email. Check your email to set a new password.</p>
                 </div>
