@@ -1,6 +1,5 @@
 import React from "react";
 import Footer from "../components/Footer";
-import SneakerLogo from "../components/SneakerLogo";
 import { InputText } from "primereact/inputtext";
 import { Button } from "primereact/button";
 import "../styles/contact.scss";
@@ -12,17 +11,19 @@ function SignUp() {
         < >
             <div className="grid main-contact-div">
                 <div className="col-12 md:col-6 lg:col-6" >
-                    <button className="sneaker_btn">
-                        <div className="logo_icon_div">
-                            <i className="pi pi-reddit logo_icon" />
-                            <div>Sneakerloft</div>
-                        </div>
-                    </button>
+                    <div style={{ padding: "2rem 0rem 0rem 6rem" }}>
+                        <button className="sneaker_btn">
+                            <div className="logo_icon_div">
+                                <i className="pi pi-reddit logo_icon" />
+                                <div>Sneakerloft</div>
+                            </div>
+                        </button>
+                    </div>
 
                     <div style={{ marginLeft: "6rem" }}>
                         <p className="contact_text">Create your account</p>
                         <p className="footer_p">Send your emails in a few minutes.</p><p className="account_p">Already have an account?</p>
-                        <p className="login_text">Login</p>
+                        <p className="signup_login_text">Login</p>
 
                         <form>
                             <div className="label-divs" >
@@ -42,8 +43,8 @@ function SignUp() {
                                 <span className="required">*</span>
                             </div>
                             <InputText className="contact_inputs" />
-                            <div>
-                                <Button className="create_button" label="Create an account" type="signup" />
+                            <div className="signup_create_button_div">
+                                <Button className="signup_create_button" label="Create an account" type="signup" />
                             </div>
                         </form>
 
@@ -53,10 +54,18 @@ function SignUp() {
                             <p className="hr" />
                         </div>
 
-                        <button className="google_button" type="submit">
-                            <img src="google-suite-icon-google-icon-LmAAJV07.jpg" alt="" className="google-image" />
-                            Sign up with google
-                        </button>
+                        <div>
+                            <button className="google_button" type="submit">
+                                <div className="google_button_div">
+                                    <div>
+                                        <img src="images/SVG.png" alt="" className="google-image" />
+                                    </div>
+                                    <div>
+                                        Sign up with google
+                                    </div>
+                                </div>
+                            </button>
+                        </div>
                     </div>
                 </div>
                 <div className="col-12 md:col-6 lg:col-6">
