@@ -227,7 +227,7 @@ const BlogPage = () => {
                                                 <p style={{ color: "#6B7C93", fontFamily: "Inter", fontWeight: "400", fontSize: "14.3px", lineHeight: "22.9px" }} >There are a lot of factors to weigh when choosing a new pair of shoes. To some it can be overwhelming so we have decided to help you through it....</p>
                                                 <div className="grid" style={{ alignItems: "center", display: "flex", flexDirection: "row" }}>
                                                     <div style={{ alignItems: "center" }}>
-                                                        <img style={{ width: "45.8px", height: "45.8px", borderRadius: "23px" }} src="images\Picture ⏵ T024QH38W-U04CKSNU7GD-629d9ab9196e-512-62x62.jpeg.png" alt="blog-page"/>
+                                                        <img style={{ width: "45.8px", height: "45.8px", borderRadius: "23px" }} src="images\Picture ⏵ T024QH38W-U04CKSNU7GD-629d9ab9196e-512-62x62.jpeg.png" alt="blog-page" />
                                                     </div>
                                                     <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", width: "199.8px", height: "41px", padding: "0px 12px 0px 14px" }}>
                                                         <div style={{ fontFamily: "Inter", fontWeight: "700", fontSize: "13.36px", lineHeight: "22.9px" }}>Kavan Sabnani</div>

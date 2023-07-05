@@ -8,7 +8,7 @@ function ShoeInfo() {
 
     const cardSection = (title, cloud_txt, max_txt, price) => {
         return (
-            <div style={{ width: "100%", height: "25%", backgroundColor: 'white', display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+            <div className="card-sections-content" style={{}}>
                 <div className="ltd_edt_txt" >{title}</div>
                 <div className="cloud_txt">{cloud_txt}</div>
                 <div className="max_txt">{max_txt}</div>
@@ -41,20 +41,20 @@ function ShoeInfo() {
                             <div style={{ font: "Montserrat", fontWeight: "bolder", fontSize: "32px" }}> Cloudmonster Sensa Shoe</div>
                             <div>
                                 <div className="grid" style={{ alignItems: "center" }}>
-                                    <div className="col-7 md:col-6 lg:col-3 sm:col-12" style={{ alignItems: "center", width: "auto", font: "Montserrat", fontWeight: "bolder", fontSize: "42px" }}>
+                                    <div className="col-7 md:col-6 lg:col-3 sm:col-12 money-txt">
                                         €30.00
                                     </div>
-                                    <div className="col-7 md:col-6 lg:col-2 sm:col-12" style={{ alignItems: "center" }}>
+                                    <div className="col-7 md:col-6 lg:col-2 sm:col-12 out_of_stock" style={{ alignItems: "center" }}>
                                         <span style={{ fontSize: "12.5px", fontWeight: "bold", border: "none", color: "#FF3820", backgroundColor: "#FAD1CA", width: "auto", padding: "4px 10px 4px 10px", borderRadius: "18px" }}>
                                             Out of Stock
                                         </span>
                                     </div>
-                                    <div className="col-7 md:col-6 lg:col-2 sm:col-12" style={{}}>
+                                    <div className="col-7 md:col-6 lg:col-2 sm:col-12 save" style={{}}>
                                         <span style={{ fontSize: "16.7px", fontWeight: "bold", border: "none", color: "#fff", backgroundColor: "#29D63A", width: "auto", padding: "10px 10px 10px 10px", alignItems: "center" }}>
                                             Save 67%
                                         </span>
                                     </div>
-                                    <div className="col-7 md:col-6 lg:col-4 sm:col-12" style={{}}>
+                                    <div className="col-7 md:col-6 lg:col-4 sm:col-12 add-fav-button" style={{}}>
                                         <span style={{ fontSize: "16.7px", border: "1px solid #E5E9ED", color: "#334553", backgroundColor: "#fff", width: "auto", padding: "10px 10px 10px 10px", alignItems: "center" }}>
                                             <i className="pi pi-heart" style={{ marginRight: "10px" }} />  Add to Favorites
                                         </span>
@@ -77,7 +77,7 @@ function ShoeInfo() {
                                                 <option value="Shirt/Round" className="checkout_inputs" style={{ textAlign: "start", width: "100%", height: "2rem" }}>Select a shirt size</option>
                                             </select>
                                         </div>
-                                        <div className="col-3" ><input className="checkout_inputs" placeholder="View Size Chart" style={{ textAlign: "center", textSizeAdjust: "auto", width: "65%", height: "2rem", backgroundColor: "#EEF2F5" }} /></div>
+                                        <div className="col-3" ><input className="checkout_inputs view-size" placeholder="View Size Chart" style={{ textAlign: "center", textSizeAdjust: "auto", width: "65%", height: "2rem", backgroundColor: "#EEF2F5" }} /></div>
                                     </div>
                                     <div className="grid" style={{ alignItems: "center" }}>
                                         <div className="col-3" style={{ marginRight: "10px" }}><span style={{ fontWeight: "bold" }}>Name</span></div>
