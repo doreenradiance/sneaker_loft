@@ -20,7 +20,7 @@ function HomePage() {
                             </div>
                             <div className="col-12 md:col-6 lg:col-7 sm:col-5">
                                 <button style={{ backgroundColor: "#F3DF77", borderRadius: "5px", color: "black", width: "233px", height: "60px", border: "none", fontWeight: "bolder" }}>
-                                    <span style={{ fontFamily: "Aeonik", fontWeight: "600px", fontSize: "18px", alignContent: "center" }}>Shop Collection  <i style={{ marginLeft: "2rem" }} class="pi pi-shopping-bag" /></span>
+                                    <span style={{ fontFamily: "Aeonik", fontWeight: "600px", fontSize: "18px", alignContent: "center" }}>Shop Collection  <i style={{ marginLeft: "2rem" }} className="pi pi-shopping-bag" /></span>
                                 </button>
                             </div>
                         </div>

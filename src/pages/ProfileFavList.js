@@ -12,7 +12,10 @@ function ProfileFavList() {
                 <p className="ltd_edt_txt" >{title}</p>
                 <p className="cloud_txt">{cloud_txt}</p>
                 <p className="max_txt">{max_txt}</p>
-                <p className="price_profile">{price}</p>
+                <div className="fav_texts_last_div">
+                    <p className="price_profile">{price}</p>
+                    <img src="images/Frame.png" alt="" className="heart_img" />
+                </div>
             </div>
         )
     }

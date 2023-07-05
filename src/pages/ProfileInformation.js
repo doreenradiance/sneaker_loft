@@ -18,16 +18,16 @@ function ProfileInformation() {
                             <div className="name_div">
                                 <div className="label_input_div">
                                     <label className="info_label">First Name</label>
-                                    <input className="profile_info_input" />
+                                    <input className="profile_info_input" placeholder="Coman" />
                                 </div>
                                 <div className="label_input_div">
                                     <label className="info_label">Last Name</label>
-                                    <input className="profile_info_input" />
+                                    <input className="profile_info_input" placeholder="Kinsley" />
                                 </div>
                             </div>
                             <div className="label_input_div">
                                 <label className="info_label">Email Address</label>
-                                <input className="profile_info_email_input" />
+                                <input className="profile_info_email_input" placeholder="kingsleycoman@gmail.com" />
                             </div>
                             <button className="saveChanges_btn" type="submit" >Save Changes</button>
                         </form>
