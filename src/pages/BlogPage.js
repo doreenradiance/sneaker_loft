@@ -87,7 +87,7 @@ const BlogPage = () => {
                                 </div>
                                 <div className="col-12 md:col-6 lg:col-3 sm:col-3" style={{ color: "black" }} >
                                     <div style={{ display: "flex", flexDirection: "column" }}>
-                                        <img src="images\GREATS-Mens-EssexPennyLoafer-BlackMulti-01_Web.jpg.png"
+                                        <img src="images\GREATS-Mens-EssexPennyLoafer-BlackMulti-01_Web.png"
                                             className="carousel-image" alt="three" />
                                         <div className="fav_texts_div card-sections lyt">
                                             <p className="img-text-blog">INSIDE MIXPANEL</p>
