@@ -89,3 +89,239 @@
         flex: row;
     }
 }
+
+.home-title-layout {
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+}
+
+.blog {
+    font-family: Nohemi;
+    font-weight: 600px;
+    font-size: 86px;
+    line-height: 100px;
+}
+
+.blog-txt {
+    font-family: Aeonik;
+    font-weight: 500px;
+    font-size: 24px;
+    line-height: 28.8px;
+}
+
+.side-content {
+    margin-top: 80px;
+    margin-bottom: 2rem;
+}
+
+.img-layout {
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
+.blog-image {
+    width: 100%;
+    height: 50%;
+}
+
+.inside-blog {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 12.41px;
+    line-height: 20.22px;
+    color: #6B7C93;
+}
+
+.text-info {
+    font-family: Nohemi;
+    font-weight: 600;
+    font-size: 31.49px;
+    line-height: 45px;
+    color: #37383C;
+}
+
+.text-info-layout {
+    margin-bottom: 0.5rem;
+    width: 396.98px;
+    height: 180px;
+}
+
+.next-text {
+
+    color: #141415;
+    font-size: 14.61px;
+    line-height: 25.04px;
+    font-family: Montserrat;
+}
+
+.next-text-layout {
+    width: 411px;
+    height: 111px;
+    margin-bottom: 3rem;
+}
+
+.profile-info {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.img-avatar {
+    width: 45.8px;
+    height: 45.8px;
+    border-radius: 23px;
+}
+
+.profile-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 199.8px;
+    height: 41px;
+    padding: 0px 12px 0px 14px;
+}
+
+.profile-position {
+    color: #6B7C93;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 10.5px;
+    line-height: 17.2px;
+}
+
+.profile-name {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 13.36px;
+    line-height: 22.9px
+}
+
+.tab-layout {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 12.1px;
+    color: #1868FB;
+}
+
+.carousel-image {
+    width: 85%;
+    height: 270px;
+}
+
+.lyt {
+    width: 85%;
+    padding: 1rem;
+    background-color: white !important;
+}
+
+.img-text-blog {
+    color: #6B7C93;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 12.41px;
+    line-height: 16.13px;
+}
+
+.img-text-blog-content {
+    color: #37383C;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23.88px;
+}
+
+.browse {
+    font-family: Nohemi;
+    font-weight: 600;
+    font-size: 20.04px;
+    line-height: 35.27px;
+}
+
+.browse-info {
+    color: #6B7C93;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14.31px;
+    line-height: 27.67px;
+}
+
+.blog-shoe-options {
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    margin-right: 10px;
+    height: auto;
+}
+
+.auto-btn {
+    color: 1868FB;
+    width: auto;
+    margin-right: 10px;
+    height: auto;
+    border-radius: 4px;
+    border: 1px solid #1868FB;
+    padding: 3px 9px 4px 9px;
+}
+
+.blog-btns {
+    width: auto;
+    margin-right: 10px;
+    height: auto;
+    border-radius: 4px;
+    border: 1px solid #CFD6E4;
+    padding: 3px 9px 4px 9px;
+}
+
+.company-btn {
+    width: auto;
+    height: auto;
+    border-radius: 4px;
+    border: 1px solid #CFD6E4;
+    padding: 3px 9px 4px 9px;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+.blog-img {
+    width: 90%;
+    height: 60%;
+}
+
+.blogs {
+    display: flex;
+    flex-direction: column;
+    color: black
+}
+
+.card-txt-blog {
+    color: #6B7C93;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14.3px;
+    line-height: 22.9px;
+}
+
+.shoe-sizes {
+    width: 45.8px;
+    height: 45.8px;
+    border-radius: 23px;
+}
+
+.sub-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 199.8px;
+    height: 41px;
+    padding: 0px 12px 0px 14px;
+}
+.prof-name{
+    
+}

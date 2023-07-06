@@ -12,10 +12,10 @@ function HomePage() {
                     <NavBar backgroundColor="home-page_navBar" textColor="home-page_navBar_text_color" />
                     <div className="home-title" style={{ marginTop: "3rem" }}>
                         <div className="home-title-content grid" style={{ alignItems: "flex-start", marginLeft: "3rem" }}>
-                            <div className="col-12 md:col-6 lg:col-5 sm:col-10" style={{ fontFamily: "Nohemi", fontWeight: "600px", fontSize: "86px", lineHeight: "100px" }}>
+                            <div className="col-12 md:col-19 lg:col-6 sm:col-12" style={{ fontFamily: "Nohemi", fontWeight: "600px", fontSize: "86px", lineHeight: "100px" }}>
                                 Stunning collection of shoes
                             </div>
-                            <div className="col-12 md:col-10 lg:col-10 sm:col-10" style={{ fontFamily: "Aeonik", fontWeight: "500px", fontSize: "24px", lineHeight: "28.8px" }}>
+                            <div className="col-12 md:col-10 lg:col-10 sm:col-12" style={{ fontFamily: "Aeonik", fontWeight: "500px", fontSize: "24px", lineHeight: "28.8px" }}>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit
                             </div>
                             <div className="col-12 md:col-6 lg:col-7 sm:col-5">
