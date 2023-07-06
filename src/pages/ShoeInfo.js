@@ -1,5 +1,4 @@
 import React from "react";
-import MyProfileSidebar from "../components/MyProfileSidebar";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import "../styles/profile.scss";
@@ -56,7 +55,7 @@ function ShoeInfo() {
                                     </div>
                                     <div className="col-7 md:col-6 lg:col-4 sm:col-12 add-fav-button">
                                         <span className="btn-3">
-                                            <i className="pi pi-heart" style={{ marginRight: "10px" }} />  Add to Favorites
+                                            <i className="pi pi-heart heart" />  Add to Favorites
                                         </span>
                                     </div>
                                 </div>
@@ -71,7 +70,7 @@ function ShoeInfo() {
                             <p>
                                 <div className="col-12 md:col-12 lg:col-12 sm:col-3">
                                     <div className="grid center" >
-                                        <div className="col-3" style={{ marginRight: "10px" }}><span style={{ fontWeight: "bold" }}>Size<span style={{ color: "red" }}>*</span></span></div>
+                                        <div className="col-3 margin-right"><span className="bold-fonts">Size<span style={{ color: "red" }}>*</span></span></div>
                                         <div className="col-5" >
                                             <select className="checkout_inputs input" name="Shirt/RoundNeck" id="Country/Region">
                                                 <option value="Shirt/Round" className="checkout_inputs input" >Select a shirt size</option>
@@ -80,15 +79,15 @@ function ShoeInfo() {
                                         <div className="col-3" ><input className="checkout_inputs view-size" placeholder="View Size Chart" /></div>
                                     </div>
                                     <div className="grid center" >
-                                        <div className="col-3" style={{ marginRight: "10px" }}><span style={{ fontWeight: "bold" }}>Name</span></div>
+                                        <div className="col-3 margin-right"><span className="bold-fonts">Name</span></div>
                                         <div className="col-7" ><input className="checkout_inputs input" placeholder="What name would you want in the shirt" /></div>
                                     </div>
                                     <div className="grid center" >
-                                        <div className="col-3" style={{ marginRight: "10px" }}><span style={{ fontWeight: "bold" }}>Number on Shirt</span></div>
+                                        <div className="col-3 margin-right"><span className="bold-fonts">Number on Shirt</span></div>
                                         <div className="col-7" ><input className="checkout_inputs input" placeholder="Enter a number between 0 and 99" /></div>
                                     </div>
                                     <div className="grid center" >
-                                        <div className="col-3" style={{ marginRight: "10px" }}><span style={{ fontWeight: "bold" }}>Patch</span></div>
+                                        <div className="col-3 margin-right"><span className="bold-fonts">Patch</span></div>
                                         <div className="col-7" >
                                             <select className="checkout_inputs input" name="Patch" id="Country/Region">
                                                 <option value="Patch" className="checkout_inputs input" >Select a patch</option>
@@ -96,7 +95,7 @@ function ShoeInfo() {
                                         </div>
                                     </div>
                                     <div className="grid center" >
-                                        <div className="col-3" style={{ marginRight: "10px", fontWeight: "bold" }}><span>Quantity</span></div>
+                                        <div className="col-3 margin-right" style={{ marginRight: "10px", fontWeight: "bold" }}><span>Quantity</span></div>
                                         <div className="col-7" ><input className="checkout_inputs quantity" placeholder="1" /></div>
                                     </div>
                                     <div>
@@ -136,53 +135,54 @@ function ShoeInfo() {
                     </div>
                 </div>
                 <div>
-                    < div className='gri' style={{ marginTop: "3rem", marginBottom: "3rem" }}>
+                    < div className='grid' style={{ marginTop: "3rem", marginBottom: "3rem" }}>
                         <div className='col-10'>
                             <span className="more-details-txt">More Like this</span>
                         </div>
                     </div>
                     <div className="grid sub-rows-layout">
                         <div className="col-12 md:col-6 lg:col-4 sm:col-3 right_texts"  >
-                            {/* <p className="Italy_txt">Made in Italy</p> */}
-                            <img className="carousel-sizing shoe-page-img" src="images\GREATS-Mens-EssexPennyLoafer-BlackMulti-01_Web.jpg.png" alt="one" />
+                            <div className="shoe-page_background_img">
+                                <p className="Italy_txt">MADE IN ITALY</p>
+                            </div>
                             {cardSection("LIMITED EDITION", "Cloudmonster Sensa", "Maximum cushioning, road runs, all-day performance", "£189.00")}
                         </div>
                         <div className="col-12 md:col-6 lg:col-4 sm:col-3 right_texts" >
-                            {/* <p className="Italy_txt">Made in Italy</p> */}
                             <img src="images/GREATS-Womens-Charlie-Blanco-01_Web.jpg.png"
                                 className="carousel-sizing shoe-page-img" alt="two" />
                             {cardSection("LIMITED EDITION", "Cloudmonster Sensa", "Maximum cushioning, road runs, all-day performance", "£189.00")}
                         </div>
                         <div className="col-12 md:col-6 lg:col-4 sm:col-3 right_texts" >
-                            {/* <p className="Italy_txt">Made in Italy</p> */}
-                            <img src="images\GREATS-Mens-RoyaleKnit-TonalOlive-01_Web.jpg.png"
-                                className="carousel-sizing shoe-page-img" alt="three" />
+                            <div className="shoe-page_background_img2">
+                                <p className="Italy_txt">MADE IN ITALY</p>
+                            </div>
                             {cardSection("LIMITED EDITION", "Cloudmonster Sensa", "Maximum cushioning, road runs, all-day performance", "£189.00")}
                         </div>
                     </div>
+
                     < div style={{ marginTop: "3rem", marginBottom: "3rem" }} >
                         <span className="more-details-txt">Recently Viewed</span>
                     </div>
+
                     <div className="grid sub-rows-layout">
                         <div className="col-12 md:col-6 lg:col-4 sm:col-3 right_texts" >
-                            {/* <p className="Italy_txt">Made in Italy</p> */}
-                            <img  className="carousel-sizing img-shoes" src="images/GREATS-Mens-Reign-RetroBlue-Black-01_Web.jpg.png" alt="one" />
+                            <div className="recently_viewed_back_img1">
+                                <p className="Italy_txt">MADE IN ITALY</p>
+                            </div>
+                            {cardSection("LIMITED EDITION", "Cloudmonster Sensa", "Maximum cushioning, road runs, all-day performance", "£189.00")}
+                        </div>
+
+                        <div className="col-12 md:col-6 lg:col-4 sm:col-3 right_texts" >
+                            <img src="images/Market_AmirBlog_Header_1920x1080-768x432.png.png"
+                                className="carousel-sizing shoe-page-img" alt="two" />
                             {cardSection("LIMITED EDITION", "Cloudmonster Sensa", "Maximum cushioning, road runs, all-day performance", "£189.00")}
                         </div>
                         <div className="col-12 md:col-6 lg:col-4 sm:col-3 right_texts" >
-                            {/* <p className="Italy_txt">Made in Italy</p> */}
-                            <img  src="images/removal1.png"
-                                className="carousel-sizing img-shoes" alt="two" />
-                            {cardSection("LIMITED EDITION", "Cloudmonster Sensa", "Maximum cushioning, road runs, all-day performance", "£189.00")}
-                        </div>
-                        <div className="col-12 md:col-6 lg:col-4 sm:col-3 right_texts" >
-                            {/* <p className="Italy_txt">Made in Italy</p> */}
-                            <img  src="images/GREATS-Womens-Charlie-Blanco-01_Web.jpg.png"
-                                className="carousel-sizing img-shoes" alt="three" />
+                            <img src="images/GREATS-Womens-St.JamesLow-Blanco-01_Web.jpg.png"
+                                className="carousel-sizing shoe-page-img" alt="two" />
                             {cardSection("LIMITED EDITION", "Cloudmonster Sensa", "Maximum cushioning, road runs, all-day performance", "£189.00")}
                         </div>
                     </div>
-                    <hr style={{ marginTop: "3rem", marginBottom: "3rem" }} />
                     <div style={{ height: "1rem", marginBottom: "3rem" }} />
                 </div>
             </div>

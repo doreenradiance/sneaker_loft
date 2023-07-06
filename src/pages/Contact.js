@@ -67,7 +67,7 @@ function Contact() {
                 </div>
             </div>
 
-            <img src="images/GoogleMap.webp" alt="ig" className="map" />
+            <img src="images/Rectangle Map.png" alt="ig" className="map" />
             <Footer />
         </div>
     )

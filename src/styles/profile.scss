@@ -274,18 +274,17 @@
 }
 
 .Italy_txt {
-    margin: 0;
-    font-size: 9px;
-    border: 1px solid black;
-    width: 4rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+    color: black;
+    font-size: 10px;
+    border: 2px solid black;
+    width: 5rem;
+    height: 0.9rem;
     border-radius: 3rem;
-    margin-left: 7rem;
+    margin-left: auto;
     text-align: center;
-}
-
-.carousel-sizing {
-    width: 400px;
-    height: 380px;
 }
 
 .date {
@@ -370,6 +369,7 @@
 
 #price {
     margin-left: 0.5rem;
+    font-weight: bolder;
 }
 
 .profile_cloudmonster_text {
@@ -484,7 +484,7 @@
 }
 
 .card-sections-content {
-    width: 100%;
+    width: auto !important;
     height: 25%;
     background-color: white;
     display: flex;
@@ -620,7 +620,58 @@
     justify-content: space-between;
 }
 
+.heart {
+    margin-right: 10px;
+}
+
+.margin-right {
+    margin-right: 10px
+}
+
+.carousel_title {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.bold-fonts {
+    font-weight: bold;
+}
+
+.context_div {
+    width: 100%;
+    height: 25%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.carousel_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
 .shoe-page-img {
+    width: auto !important;
+    height: 500px !important;
+}
+
+.shoe-page_background_img {
+    background-image: url(../../public/images/GREATS-Mens-Reign-RetroBlue-Black-01_Web.jpg.png);
+    width: auto !important;
+    height: 500px !important;
+}
+
+.shoe-page_background_img2 {
+    background-image: url(../../public/images/GREATS-Womens-St.JamesLow-Blanco-01Web.png);
+    width: auto !important;
+    height: 500px !important;
+}
+
+.recently_viewed_back_img1 {
+    background-image: url(../../public/images/FoundationTemplates_Blog-768x432.png);
     width: auto !important;
     height: 500px !important;
 }
@@ -628,4 +679,39 @@
 .img-shoes {
     width: 100%;
     height: 500px;
+}
+
+.carousel_img1 {
+    background-image: url(../../public/images/GREATS-Mens-EssexPennyLoafer-BlackMulti-01_Web.jpg.png);
+    width: auto !important;
+    height: 500px !important;
+}
+
+.carousel_img2 {
+    background-image: url(../../public/images/GREATS-Womens-Charlie-Blanco-01_Web.jpg.png);
+    width: auto !important;
+    height: 500px !important;
+}
+
+.carousel_img3 {
+    background-image: url(../../public/images/GREATS-Mens-RoyaleKnit-TonalOlive-01_Web.jpg.png);
+    width: auto !important;
+    height: 500px !important;
+}
+
+.carousel_background_img1 {
+    background-image: url(../../public/images/GREATS-Mens-RoyaleKnit-Delta-01_Web.jpg.png);
+    width: auto !important;
+    height: 500px !important;
+}
+
+.carousel_background_img_last {
+    background-image: url(../../public/images/GREATS-Womens-RoyaleKnit-Fog-01_Web.jpg.png);
+    width: auto !important;
+    height: 500px !important;
+}
+
+.carousel_div {
+    display: flex;
+    flex-direction: column;
 }
