@@ -37,7 +37,7 @@ function WomenCollection() {
                     <button className="men-category">Micro Sports</button>
                     <button className="men-category">Boots</button>
                 </div>
-                <div style={{ backgroundColor: "#F9F8F5", paddingLeft: "4rem" }}>
+                <div className="shoes-carousel-products">
                     <ShoesCarouselProducts title={"Featured..."} />
                 </div>
             </div >

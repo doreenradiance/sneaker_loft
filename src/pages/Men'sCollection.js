@@ -2,7 +2,6 @@ import React from "react";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import "../styles/homePage.scss";
-// import "../styles/men's collection.scss"
 import ShoesCarouselProducts from "../components/Shoes_Carousel_Products";
 
 function MensCollection() {
@@ -14,7 +13,7 @@ function MensCollection() {
                     <NavBar backgroundColor="home-page_navBar" textColor="home-page_navBar_text_color" />
                     <div className="grid home-title" style={{ margin: "auto", width: "90%", padding: "10px", top: "150px" }}>
                         <div className="col-12 md:col-12 lg:col-12 sm:col-12 home-title-content" style={{ textAlign: "center" }}>
-                            <span style={{ fontFamily: "Nohemi", fontWeight: "600px", fontSize: "86px", lineHeight: "100px" }}>
+                            <span className="collection-txt">
                                 Men's shoe collection
                             </span>
                             <span style={{ fontFamily: "Aeonik", fontWeight: "500px", fontSize: "24px", lineHeight: "28.8px" }}>
@@ -37,7 +36,7 @@ function MensCollection() {
                     <button className="men-category">Micro Sports</button>
                     <button className="men-category">Boots</button>
                 </div>
-                <div style={{ backgroundColor: "#F9F8F5", paddingLeft: "4rem" }}>
+                <div className="shoes-carousel-products">
                     <ShoesCarouselProducts title={"Products"} />
                 </div>
 

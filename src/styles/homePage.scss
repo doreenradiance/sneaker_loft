@@ -1,6 +1,5 @@
 .background_img {
     background-image: url(../../public/images/home-update.png);
-    // position: relative;
     width: 100vw;
     height: 632px;
     top: 0px;
@@ -8,8 +7,6 @@
 }
 
 .men_background_img {
-    // background-image: url(../../public/images/men_page.png);
-    // position: absolute;
     background-image: url(../../public/images/men_page.png);
     position: relative;
     width: 100vw;
@@ -22,8 +19,6 @@
     width: 100vw;
     height: 432px;
 
-    // left: calc(50% - 1600px/2);
-    // top: 0px;
     .home_category_div {
         margin-top: 20px;
         background-color: #fff;
@@ -56,15 +51,14 @@
         padding: 0px;
         gap: 26px;
         color: white;
+        text-align: center;
     }
 
     .home-category {
         border-radius: 47.6292px;
         width: 100px;
         height: 45px;
-        // left: calc(50% - 105.74px/2 - 667.26px);
         top: 869.30px;
-        // padding: 15.2410px 20.7183px 15.2410px 20.9563px;
         font-size: 10px;
         margin-right: 3.2rem;
     }
@@ -88,6 +82,13 @@
         display: flex;
         flex: row;
     }
+}
+
+.card-sections2 {
+    height: 100%;
+    background-color: white;
+    width: 90%;
+    padding: 1rem;
 }
 
 .home-title-layout {
@@ -322,6 +323,8 @@
     height: 41px;
     padding: 0px 12px 0px 14px;
 }
-.prof-name{
-    
+
+.shoes-carousel-products {
+    background-color: #F9F8F5;
+    padding-left: 4rem;
 }
