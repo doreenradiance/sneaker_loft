@@ -69,7 +69,8 @@
     }
 
     .card-sections {
-        padding: 10px 10px 10px 10px;
+        padding: 10px;
+        background-color: white;
     }
 
     .category_div {
@@ -149,7 +150,6 @@
 }
 
 .next-text {
-
     color: #141415;
     font-size: 14.61px;
     line-height: 25.04px;
@@ -207,7 +207,7 @@
 }
 
 .carousel-image {
-    width: 85%;
+    width: 90%;
     height: 270px;
 }
 
@@ -291,8 +291,19 @@
 }
 
 .blog-img {
-    width: 90%;
-    height: 60%;
+    width: auto !important;
+    height: 250px;
+}
+
+.texts {
+    background-color: white;
+}
+
+
+.fav_texts_div {
+    padding: 20px;
+    background-color: white;
+    width: auto !important;
 }
 
 .blogs {

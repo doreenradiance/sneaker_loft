@@ -15,7 +15,7 @@ const ShoesCarouselProducts = ({ title }) => {
     }
     return (
         <div>
-            < div className='grid' style={{ marginTop: "3rem", marginBottom: "3rem" }}>
+            <div className='grid' style={{ marginTop: "3rem", marginBottom: "3rem" }}>
                 <div className='col-12 md:col-6 lg:col-10 sm:col-3'>
                     <span className="my_shoe-carousel-title">New Arrivals...</span>
                 </div>
@@ -27,18 +27,18 @@ const ShoesCarouselProducts = ({ title }) => {
             </div>
             <div className="grid" style={{ display: "flex", flexDirection: "row", justifyContent: "space-between" }}>
                 <div className="col-12 md:col-6 lg:col-4 sm:col-3" style={{ display: "flex", flexDirection: "column", color: "black" }} >
-                    {/* <p className="Italy_txt">Made in Italy</p> */}
+
                     <img style={{ width: "auto", height: "500px" }} className="carousel-sizing" src="images\GREATS-Mens-EssexPennyLoafer-BlackMulti-01_Web.jpg.png" alt="one" />
                     {cardSection("LIMITED EDITION", "Cloudmonster Sensa", "Maximum cushioning, road runs, all-day performance", "£189.00")}
                 </div>
                 <div className="col-12 md:col-6 lg:col-4 sm:col-3" style={{ display: "flex", flexDirection: "column", color: "black" }}>
-                    {/* <p className="Italy_txt">Made in Italy</p> */}
+
                     <img style={{ width: "auto", height: "500px" }} src="images/GREATS-Womens-Charlie-Blanco-01_Web.jpg.png"
                         className="carousel-sizing" alt="two" />
                     {cardSection("LIMITED EDITION", "Cloudmonster Sensa", "Maximum cushioning, road runs, all-day performance", "£189.00")}
                 </div>
                 <div className="col-12 md:col-6 lg:col-4 sm:col-3" style={{ display: "flex", flexDirection: "column", color: "black" }}>
-                    {/* <p className="Italy_txt">Made in Italy</p> */}
+
                     <img style={{ width: "auto", height: "500px" }} src="images\GREATS-Mens-RoyaleKnit-TonalOlive-01_Web.jpg.png"
                         className="carousel-sizing" alt="three" />
                     {cardSection("LIMITED EDITION", "Cloudmonster Sensa", "Maximum cushioning, road runs, all-day performance", "£189.00")}
@@ -82,38 +82,49 @@ const ShoesCarouselProducts = ({ title }) => {
                 <div className="col-9">
                     <div className="grid" style={{ marginBottom: "4rem", display: "flex" }}>
                         <div className="col-12 md:col-6 lg:col-4 sm:col-3" style={{ display: "flex", flexDirection: "column", color: "black" }} >
-                            {/* <p className="Italy_txt">Made in Italy</p> */}
-                            <img style={{ width: "auto", height: "500px" }} className="carousel-sizing" src="images\GREATS-Mens-EssexPennyLoafer-BlackMulti-01_Web.jpg.png" alt="one" />
+                            <img style={{ width: "auto", height: "500px" }} className="carousel-sizing" src="images\GREATS-Mens-Reign-RetroBlue-Black-01_Web.jpg.png" alt="one" />
                             {cardSection("LIMITED EDITION", "Cloudmonster Sensa", "Maximum cushioning, road runs, all-day performance", "£189.00")}
                         </div>
                         <div className="col-12 md:col-6 lg:col-4 sm:col-3" style={{ display: "flex", flexDirection: "column", color: "black" }}>
-                            {/* <p className="Italy_txt">Made in Italy</p> */}
                             <img style={{ width: "auto", height: "500px" }} src="images/GREATS-Womens-Charlie-Blanco-01_Web.jpg.png"
                                 className="carousel-sizing" alt="two" />
                             {cardSection("LIMITED EDITION", "Cloudmonster Sensa", "Maximum cushioning, road runs, all-day performance", "£189.00")}
                         </div>
                         <div className="col-12 md:col-6 lg:col-4 sm:col-3" style={{ display: "flex", flexDirection: "column", color: "black" }}>
-                            {/* <p className="Italy_txt">Made in Italy</p> */}
-                            <img style={{ width: "auto", height: "500px" }} src="images\GREATS-Mens-RoyaleKnit-TonalOlive-01_Web.jpg.png"
+                            <img style={{ width: "auto", height: "500px" }} src="images\GREATS-Womens-St.JamesLow-Blanco-01Web.png"
+                                className="carousel-sizing" alt="three" />
+                            {cardSection("LIMITED EDITION", "Cloudmonster Sensa", "Maximum cushioning, road runs, all-day performance", "£189.00")}
+                        </div>
+                    </div>
+                    <div className="grid" style={{ marginBottom: "4rem", display: "flex" }}>
+                        <div className="col-12 md:col-6 lg:col-4 sm:col-3" style={{ display: "flex", flexDirection: "column", color: "black" }} >
+
+                            <img style={{ width: "auto", height: "500px" }} className="carousel-sizing" src="images\GREATS-Mens-Reign-RetroBlue-Black-01_Web.jpg.png" alt="one" />
+                            {cardSection("LIMITED EDITION", "Cloudmonster Sensa", "Maximum cushioning, road runs, all-day performance", "£189.00")}
+                        </div>
+                        <div className="col-12 md:col-6 lg:col-4 sm:col-3" style={{ display: "flex", flexDirection: "column", color: "black" }}>
+                            <img style={{ width: "auto", height: "500px" }} src="images/GREATS-Womens-Charlie-Blanco-01_Web.jpg.png"
+                                className="carousel-sizing" alt="two" />
+                            {cardSection("LIMITED EDITION", "Cloudmonster Sensa", "Maximum cushioning, road runs, all-day performance", "£189.00")}
+                        </div>
+                        <div className="col-12 md:col-6 lg:col-4 sm:col-3" style={{ display: "flex", flexDirection: "column", color: "black" }}>
+                            <img style={{ width: "auto", height: "500px" }} src="images\GREATS-Womens-St.JamesLow-Blanco-01Web.png"
                                 className="carousel-sizing" alt="three" />
                             {cardSection("LIMITED EDITION", "Cloudmonster Sensa", "Maximum cushioning, road runs, all-day performance", "£189.00")}
                         </div>
                     </div>
                     <div className="grid" style={{ display: "flex" }}>
                         <div className="col-12 md:col-6 lg:col-4 sm:col-3" style={{ display: "flex", flexDirection: "column", color: "black" }} >
-                            {/* <p className="Italy_txt">Made in Italy</p> */}
-                            <img style={{ width: "auto", height: "500px" }} className="carousel-sizing" src="images\GREATS-Mens-EssexPennyLoafer-BlackMulti-01_Web.jpg.png" alt="one" />
+                            <img style={{ width: "auto", height: "500px" }} className="carousel-sizing" src="images\GREATS-Mens-Reign-RetroBlue-Black-01_Web.jpg.png" alt="one" />
                             {cardSection("LIMITED EDITION", "Cloudmonster Sensa", "Maximum cushioning, road runs, all-day performance", "£189.00")}
                         </div>
                         <div className="col-12 md:col-6 lg:col-4 sm:col-3" style={{ display: "flex", flexDirection: "column", color: "black" }}>
-                            {/* <p className="Italy_txt">Made in Italy</p> */}
                             <img style={{ width: "auto", height: "500px" }} src="images/GREATS-Womens-Charlie-Blanco-01_Web.jpg.png"
                                 className="carousel-sizing" alt="two" />
                             {cardSection("LIMITED EDITION", "Cloudmonster Sensa", "Maximum cushioning, road runs, all-day performance", "£189.00")}
                         </div>
                         <div className="col-12 md:col-6 lg:col-4 sm:col-3" style={{ display: "flex", flexDirection: "column", color: "black" }}>
-                            {/* <p className="Italy_txt">Made in Italy</p> */}
-                            <img style={{ width: "auto", height: "500px" }} src="images\GREATS-Mens-RoyaleKnit-TonalOlive-01_Web.jpg.png"
+                            <img style={{ width: "auto", height: "500px" }} src="images\GREATS-Womens-St.JamesLow-Blanco-01Web.png"
                                 className="carousel-sizing" alt="three" />
                             {cardSection("LIMITED EDITION", "Cloudmonster Sensa", "Maximum cushioning, road runs, all-day performance", "£189.00")}
                         </div>

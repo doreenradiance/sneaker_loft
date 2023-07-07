@@ -1,11 +1,10 @@
 import React from "react";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
-import "../styles/homePage.scss"
+import "../styles/homePage.scss";
 import { TabView, TabPanel } from 'primereact/tabview';
 
 const BlogPage = () => {
-
     return (
         <div style={{ backgroundColor: "#F9F8F5" }}>
             <div className="grid">
@@ -14,7 +13,7 @@ const BlogPage = () => {
                     <div className="women_background_img" style={{ paddingLeft: "5rem" }}>
                         <NavBar backgroundColor="home-page_navBar" textColor="home-page_navBar_text_color" />
                         <div className="grid home-title home-title-layout" >
-                            <div className="col-12 md:col-12 lg:col-12 sm:col-12 home-title-content">
+                            <div className="col-12 md:col-12 lg:col-12 sm:col-12 home-title-content" style={{ textAlign: "center" }}>
                                 <span className="blog">
                                     Blog and Media
                                 </span>
@@ -67,9 +66,9 @@ const BlogPage = () => {
                             <div className="grid" style={{ marginBottom: "20px" }}>
                                 <div className="col-12 md:col-6 lg:col-3 sm:col-3" style={{ color: "black" }} >
                                     <div style={{ display: "flex", flexDirection: "column" }}>
-                                        <img src="images\div.product_slider_img_main (2).png" alt="one"
+                                        <img src="images\GREATS-Womens-St.JamesLow-Blanco-01_Web.jpg.png" alt="one"
                                             className="carousel-image" />
-                                        <div className="fav_texts_div card-sections lyt" >
+                                        <div className="card-sections lyt" >
                                             <p className="img-text-blog">BLOG POST</p>
                                             <p className="img-text-blog-content" >How to know quality shoe products when delivered</p>
                                         </div>
@@ -79,7 +78,7 @@ const BlogPage = () => {
                                     <div style={{ display: "flex", flexDirection: "column" }}>
                                         <img src="images\Link ⏵ Mixpanel-Boards_collaboration-product-insights--768x432.png.png"
                                             className="carousel-image" alt="two" />
-                                        <div className="fav_texts_div card-sections lyt">
+                                        <div className="card-sections lyt">
                                             <p className="img-text-blog">BLOG POST</p>
                                             <p className="img-text-blog-content" >How to know quality shoe products when delivered</p>
                                         </div>
@@ -87,9 +86,9 @@ const BlogPage = () => {
                                 </div>
                                 <div className="col-12 md:col-6 lg:col-3 sm:col-3" style={{ color: "black" }} >
                                     <div style={{ display: "flex", flexDirection: "column" }}>
-                                        <img src="images\GREATS-Mens-EssexPennyLoafer-BlackMulti-01_Web.png"
+                                        <img src="images\GREATS-Mens-EssexPennyLoafer-BlackMulti-01_Web.jpg.png"
                                             className="carousel-image" alt="three" />
-                                        <div className="fav_texts_div card-sections lyt">
+                                        <div className=" card-sections lyt">
                                             <p className="img-text-blog">INSIDE MIXPANEL</p>
                                             <p className="img-text-blog-content" >How to know quality shoe products when delivered</p>
                                         </div>
@@ -99,7 +98,7 @@ const BlogPage = () => {
                                     <div style={{ display: "flex", flexDirection: "column" }}>
                                         <img src="images\Link ⏵ DataVC_Blog_1914x1075-768x433.png.png"
                                             className="carousel-image" alt="three" />
-                                        <div className="fav_texts_div card-sections lyt">
+                                        <div className=" card-sections lyt">
                                             <p className="img-text-blog">BLOG POST</p>
                                             <p className="img-text-blog-content" >How to know quality shoe products when delivered</p>
                                         </div>
@@ -124,8 +123,8 @@ const BlogPage = () => {
                                 <div>
                                     <div className="grid" style={{ marginBottom: "20px" }}>
                                         <div className="col-12 md:col-6 lg:col-4 sm:col-3 card-info" >
-                                            <img className="blog-img" src="images\Market_AmirBlog_Header_1920x1080-768x432.png.png" alt="one" />
-                                            <div className="fav_texts_div card-sections card-sections2">
+                                            <img className="blog-img" src="images\Direction-1_ROI-Calculator-768x432.png.png" alt="one" />
+                                            <div className="fav_texts_div">
                                                 <p className="img-text-blog">INSIDE BLOG</p>
                                                 <p className="img-text-blog-content"> How to know quality shoe products when delivered </p>
                                                 <p className="card-txt-blog" >There are a lot of factors to weigh when choosing a new pair of shoes. To some it can be overwhelming so we have decided to help you through it....</p>
@@ -141,8 +140,8 @@ const BlogPage = () => {
                                             </div>
                                         </div>
                                         <div className="col-12 md:col-6 lg:col-4 sm:col-3 card-info"  >
-                                            <img className="blog-img" src="images\Link ⏵ DataVC_Blog_1914x1075-768x433.png.png" alt="one" />
-                                            <div className="fav_texts_div card-sections card-sections2">
+                                            <img className="blog-img" src="images\home-update.png" alt="one" />
+                                            <div className="fav_texts_div">
                                                 <p className="img-text-blog">INSIDE BLOG</p>
                                                 <p className="img-text-blog-content"> How to know quality shoe products when delivered </p>
                                                 <p className="card-txt-blog" >There are a lot of factors to weigh when choosing a new pair of shoes. To some it can be overwhelming so we have decided to help you through it....</p>
@@ -157,10 +156,9 @@ const BlogPage = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-12 md:col-6 lg:col-4 sm:col-3 card-info" >
-
-                                            <img className="blog-img" src="images\Market_AmirBlog_Header_1920x1080-768x432.png.png" alt="one" />
-                                            <div className="fav_texts_div card-sections card-sections2">
+                                        <div className="col-12 md:col-6 lg:col-4 sm:col-3 card-info"  >
+                                            <img className="blog-img" src="images\GREATS-Mens-EssexPennyLoafer-BlackMulti-01_Web.jpg.png" alt="one" />
+                                            <div className="fav_texts_div">
                                                 <p className="img-text-blog">INSIDE BLOG</p>
                                                 <p className="img-text-blog-content"> How to know quality shoe products when delivered </p>
                                                 <p className="card-txt-blog" >There are a lot of factors to weigh when choosing a new pair of shoes. To some it can be overwhelming so we have decided to help you through it....</p>
@@ -180,9 +178,8 @@ const BlogPage = () => {
                                 <div>
                                     <div className="grid" style={{ marginBottom: "20px" }}>
                                         <div className="col-12 md:col-6 lg:col-4 sm:col-3 card-info"  >
-
                                             <img className="blog-img" src="images\Market_AmirBlog_Header_1920x1080-768x432.png.png" alt="one" />
-                                            <div className="fav_texts_div card-sections card-sections2">
+                                            <div className="fav_texts_div">
                                                 <p className="img-text-blog">INSIDE BLOG</p>
                                                 <p className="img-text-blog-content"> How to know quality shoe products when delivered </p>
                                                 <p className="card-txt-blog" >There are a lot of factors to weigh when choosing a new pair of shoes. To some it can be overwhelming so we have decided to help you through it....</p>
@@ -198,9 +195,8 @@ const BlogPage = () => {
                                             </div>
                                         </div>
                                         <div className="col-12 md:col-6 lg:col-4 sm:col-3 card-info"  >
-
-                                            <img className="blog-img" src="images\FoundationTemplates_Blog-768x432.png.png" alt="one" />
-                                            <div className="fav_texts_div card-sections card-sections2">
+                                            <img className="blog-img" src="images/FoundationTemplates_Blog-768x432.png" alt="one" />
+                                            <div className="fav_texts_div">
                                                 <p className="img-text-blog">INSIDE BLOG</p>
                                                 <p className="img-text-blog-content"> How to know quality shoe products when delivered </p>
                                                 <p className="card-txt-blog" >There are a lot of factors to weigh when choosing a new pair of shoes. To some it can be overwhelming so we have decided to help you through it....</p>
@@ -216,9 +212,8 @@ const BlogPage = () => {
                                             </div>
                                         </div>
                                         <div className="col-12 md:col-6 lg:col-4 sm:col-3 card-info"  >
-
                                             <img className="blog-img" src="images\Mixpanel-Brand-4-768x432.png.png" alt="one" />
-                                            <div className="fav_texts_div card-sections card-sections2">
+                                            <div className="fav_texts_div">
                                                 <p className="img-text-blog">INSIDE BLOG</p>
                                                 <p className="img-text-blog-content"> How to know quality shoe products when delivered </p>
                                                 <p className="card-txt-blog" >There are a lot of factors to weigh when choosing a new pair of shoes. To some it can be overwhelming so we have decided to help you through it....</p>
